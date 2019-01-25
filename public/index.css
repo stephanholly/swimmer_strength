@@ -1,3 +1,5 @@
+
+
 .header {
   display: flex;
   flex-direction: row;
@@ -24,7 +26,6 @@ a {
  }
 
 .main-video {
-  height: 105vh;
   position:relative;
   z-index:0;
   width: 100%;
@@ -179,11 +180,131 @@ a {
 .img__description {
   transition: .2s;
   position:absolute;
-  top: 50%;
+  top: 75%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index:1;
   margin: 0;
+  font-size: 2em;
+  color: white;
+}
+
+.title {
+  position: absolute;
+  margin: 0;
   font-size: 10em;
   color: white;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.title-strength {
+  position: absolute;
+  margin: 0;
+  font-size: 10em;
+  color: white;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 0.9;
+  width: 100%;
+}
+
+.affiliates {
+  padding-top: 2vh;
+  padding-bottom: 5vh;
+}
+
+.affiliate-pics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.pic {
+  width: 20%;
+}
+
+.actual {
+width: 100%
+}
+
+.home-about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 8%;
+  padding-bottom: 4%;
+  background-color: rgba(128,128,128, 0.2);
+}
+
+.home-about-pic {
+  width: 45%;
+}
+
+.home-about-bio {
+  width: 45%;
+  padding-right: 5%;
+  font-size: 2em;
+  line-height: 1.5;
+}
+
+.home-header {
+  font-size: 2em;
+  color: #2E5378;
+}
+
+.who-we-are-text {
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1.5em;
+  line-height: 2;
+}
+
+.page-header {
+  background-color: #2E5378;
+  position: absolute;
+  color: #FFF;
+  height: 13vh;
+  width: 32%;
+  left: 50%;
+  margin-left: -16%;
+  top: 17%;
+  font-size: 2.5em;
+  z-index: 1;
+  border-radius: 50px;
+}
+.page-header-rel {
+  background-color: #2E5378;
+  position: relative;
+  color: #FFF;
+  height: 13vh;
+  width: 32%;
+  left: 50%;
+  margin-left: -16%;
+  top: 17%;
+  font-size: 2.5em;
+  z-index: 1;
+  border-radius: 50px;
+}
+
+.page-header-text {
+  position: relative;
+  margin: 0;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.slider-container {
+  padding-bottom: 5vh;
+}
+
+.ind-slider {
+  height: 30vh;
+
+  border: 1px solid black;
 }
