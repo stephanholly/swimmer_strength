@@ -10,7 +10,8 @@ class Home extends Component {
               <source src='video1.mp4' type="video/mp4" />
           </video>
           <div className="overlay">
-            <h1>Swimmer Strength</h1>
+            <h1 className="big">Swimmer Strength</h1>
+            <p className="small">strength training that gets you faster<br/>& reduces risk of injury</p>
           </div>
         </div>
         <div className="who-we-are">
