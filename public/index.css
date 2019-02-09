@@ -1,5 +1,4 @@
-
-
+@import url('https://fonts.googleapis.com/css?family=Barlow|Barlow+Condensed:100');
 .header {
   display: flex;
   flex-direction: row;
@@ -11,8 +10,13 @@
   width: 70%;
 }
 
+.logo {
+  width: 20%
+}
+
 .headerlink {
-  padding-top: 4rem;
+  padding-top: 2em;
+  font-family: 'Barlow', sans-serif;
 
 }
 
@@ -71,6 +75,7 @@ a {
     bottom: 0;
     width: 100%;
     position: relative;
+    display: table;
 }
 
 .services-camps {
@@ -126,6 +131,7 @@ a {
  .content-blog:hover .img__description_layer {
   visibility: visible;
   opacity: 1;
+
 }
 
  .content-videos:hover .img__description_layer {
@@ -169,7 +175,8 @@ a {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(85, 123, 151, 1);
+  /* background: rgba(85, 123, 151, 1); */
+  background: white;
   background-size: cover;
   visibility: hidden;
   opacity: 0;
@@ -198,14 +205,24 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
+  font-family: 'Barlow Condensed', sans-serif;
 }
 
 .title2 {
   margin: 0;
   font-size: 10em;
-  color: white;
+  color: #2E5378;
   width: 100%;
   margin-top: 10vh;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.title2-camps {
+  margin: 0;
+  font-size: 10em;
+  color: white;
+  width: 100%;
+  margin-top: 0vh;
 }
 
 .title-strength {
@@ -239,6 +256,13 @@ a {
 width: 100%
 }
 
+.actual1{
+width: 100%;
+background-color: black;
+padding: 10px;
+margin-top: 10px;
+}
+
 .home-about {
   display: flex;
   flex-direction: row;
@@ -252,6 +276,10 @@ width: 100%
   width: 45%;
 }
 
+.home-pic {
+  width: 90%;
+}
+
 .home-about-bio {
   width: 45%;
   padding-right: 5%;
@@ -262,6 +290,7 @@ width: 100%
 .home-header {
   font-size: 2em;
   color: #2E5378;
+  font-family: 'Barlow', sans-serif;
 }
 
 .who-we-are-text {
@@ -269,6 +298,7 @@ width: 100%
   padding-right: 5%;
   font-size: 1.5em;
   line-height: 2;
+  font-family: 'Barlow Condensed', sans-serif;
 }
 
 .page-header {
@@ -283,7 +313,9 @@ width: 100%
   font-size: 2.5em;
   z-index: 1;
   border-radius: 50px;
+  font-family: 'Barlow', sans-serif;
 }
+
 .page-header-rel {
   background-color: #2E5378;
   position: relative;
@@ -312,27 +344,108 @@ width: 100%
 }
 
 .ind-slider {
-  height: 30vh;
+  height: 50vh;
   border: 1px solid black;
+}
+
+.ind-slider-text {
+  padding: 20px;
 }
 
 .big {
   margin: 0;
+  font-family: 'Barlow', sans-serif;
 }
 
 .small {
   font-size: 0.5em;
+  font-family: 'Barlow Condensed', sans-serif;
 }
 
 .training-descriptions {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .training-text {
-  padding-left: 70px;
-  padding-right: 70px;
-  color: white;
+  padding-left: 0;
+  color: #2E5378;
   font-size: 2em;
+  text-align: left;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.training-header {
+  font-size: 3.5em;
+  margin-bottom: 0;
+  color: #2E5378;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.training {
+ width:48%;
+ text-decoration: none;
+ border: 1px solid black;
+ border-radius: 5;
+ margin-top: 5vh;
+}
+
+.training:hover, .camps:hover {
+  background-color: #2E5378;
+}
+
+.camps {
+  width:90%;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 5;
+  margin-top: 3vh;
+}
+
+.camp-header {
+  font-size: 2em;
+  margin-bottom: 0;
+  color: black;
+}
+
+
+.camp-text {
+  padding-left: 0;
+  color: white;
+  font-size: 1.5em;
+  text-align: left;
+}
+
+li {
+  padding-left: 0
+}
+
+.ul-training {
+  display: flex;
+  justify-content: center;
+  padding-right: 10%;
+  padding-left: 10%;
+  flex-direction: column;
+}
+
+.register-link {
+    font-size: 3em;
+    background-color: #2E5378;
+    padding-bottom: 1%;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 8vh;
+    font-family: 'Barlow', sans-serif;
+}
+
+.register-link:hover {
+  background-color: #000;
+}
+
+.register-link-text {
+  color:white;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
