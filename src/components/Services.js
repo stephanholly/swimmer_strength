@@ -13,37 +13,37 @@ class Services extends Component {
           <div class="img__description_layer">
             <h1 className="title2">Strength Training</h1>
             <div className="training-descriptions">
-              <Link className="training" to="/about">
+              <a className="training" href="https://www.google.com">
               <div>
                 <h1 className="training-header">Arizona-based Training</h1>
-                <div className="ul-training">
+                <div className="ul-training1">
                 <ul>
                   <li className="training-text">Consistent sports science testing:</li>
                   <ul>
-                    <li>individual athletic blueprint; uppper and lower power, strength, core endurance, and functional movement.</li>
+                    <li className="training-text">individual athletic blueprint; uppper and lower power, strength, core endurance, and functional movement.</li>
                   </ul>
                   <li className="training-text">Become and athlete; strong, powerful, durable, explosive, flexible, mobile, and supple.</li>
                   <li className="training-text">Holistic training approach;</li>
                     <ul>
-                      <li>Introducing the importance of integration among dryland, diet, sleep, imagery, optimism, willingness, technical perfection, and mindfulness.</li>
+                      <li className="training-text">Introducing the importance of integration among dryland, diet, sleep, imagery, optimism, willingness, technical perfection, and mindfulness.</li>
                     </ul>
                 </ul>
                 </div>
               </div>
-            </Link>
-            <Link className="training" to="/products">
+            </a>
+            <a className="training" href="https://www.yahoo.com">
             <div>
                 <h1 className="training-header">Online-based Training</h1>
-                  <div className="ul-training">
-                    <p>Same philosophy as the Arizona-based Training +:</p>
-                  <ul>
-                    <li className="training-text">Monthly face-to-face follow ups</li>
-                    <li className="training-text">Workouts received via TrainHeroic app; Exercise videos, repetitions, and sets perscribed to your individual needs.</li>
-                    <li className="training-text">Receiving monthly tasks to focus on phyisically and mentally</li>
-                  </ul>
+                  <div className="ul-training2">
+                    <p className="training-text-first">Same philosophy as the Arizona-based Training +:</p>
+                    <ul>
+                      <li className="training-text">Monthly face-to-face follow ups</li>
+                      <li className="training-text">Workouts received via TrainHeroic app; Exercise videos, repetitions, and sets perscribed to your individual needs.</li>
+                      <li className="training-text">Receiving monthly tasks to focus on phyisically and mentally</li>
+                    </ul>
                 </div>
               </div>
-            </Link>
+            </a>
             </div>
           </div>
         </div>

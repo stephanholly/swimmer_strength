@@ -12,6 +12,7 @@ import Content from './components/Content';
 import Services from './components/Services';
 import Products from './components/Products';
 import Events from './components/Events';
+import Registration from './components/Registration'
 
 class App extends Component {
   render() {
@@ -29,10 +30,10 @@ class App extends Component {
             <Link to="/about"><h2>About</h2></Link>
           </div>
           <div className="headerlink">
-            <Link to="/content"><h2>Content</h2></Link>
+            <Link to="/services"><h2>Services</h2></Link>
           </div>
           <div className="headerlink">
-            <Link to="/services"><h2>Services</h2></Link>
+            <Link to="/content"><h2>Content</h2></Link>
           </div>
           <div className="headerlink">
             <Link to="/products"><h2>Products</h2></Link>
@@ -48,6 +49,7 @@ class App extends Component {
           <Route path="/services" component={Services} />
           <Route path="/products/" component={Products} />
           <Route path="/events/" component={Events} />
+          <Route path="/registration/" component={Registration} />
       </div>
     </Router>
     );

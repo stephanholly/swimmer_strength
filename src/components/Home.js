@@ -19,11 +19,14 @@ class Home extends Component {
             <h1>Who We Are</h1>
           </div>
           <div className="who-we-are-text">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <p>We embody high-performance training for the swimming community, striving to leave a positive impact with faster swimming and reduced injuries.</p>
+              <p>Using sport science to ensure results.</p>
+              <p>Your reliable and entertaining source of strength training for competitive swimmers.</p>
+              <p>With patience & passion, we document our progress to provide quality content with context to give exceptional value for our Swimmer Strength community.</p>
           </div>
         </div>
         <div className="register-link">
-          <Link to="/services"><h1 className="register-link-text">Start Training Today!</h1></Link>
+          <Link to="/registration"><h1 className="register-link-text">Start Training Today!</h1></Link>
         </div>
         <div className="affiliates">
           <div className="home-header">
