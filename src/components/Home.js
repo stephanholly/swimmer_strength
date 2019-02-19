@@ -19,10 +19,22 @@ class Home extends Component {
             <h1>Who We Are</h1>
           </div>
           <div className="who-we-are-text">
+            <div className="description-icon">
+              <i class="fas fa-swimmer"></i>
               <p>We embody high-performance training for the swimming community, striving to leave a positive impact with faster swimming and reduced injuries.</p>
+            </div>
+            <div className="description-icon">
+              <i class="fas fa-flask"></i>
               <p>Using sport science to ensure results.</p>
+            </div>
+            <div className="description-icon">
+              <i class="fas fa-swimmer"></i>
               <p>Your reliable and entertaining source of strength training for competitive swimmers.</p>
+            </div>
+            <div className="description-icon">
+              <i class="fas fa-running"></i>
               <p>With patience & passion, we document our progress to provide quality content with context to give exceptional value for our Swimmer Strength community.</p>
+            </div>
           </div>
         </div>
         <div className="register-link">

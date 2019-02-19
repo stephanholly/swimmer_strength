@@ -295,11 +295,14 @@ margin-top: 10px;
 }
 
 .who-we-are-text {
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5vh;
   font-size: 1.5em;
-  line-height: 2;
-  font-family: 'Barlow Condensed', sans-serif;
+  line-height: 1.2;
+  font-family: 'Barlow', sans-serif;
+  color: #2E5378;
+  text-align: left;
 }
 
 .page-header {
@@ -480,4 +483,26 @@ li {
 .about-text {
   font-size: 1.7vw;
   font-family: 'Barlow Condensed', sans-serif;
+}
+
+.widget-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hc_footer {
+  visibility: hidden;
+}
+
+.fas {
+font-size: 6em;
+padding-right: 30px;
+}
+
+.description-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  width: 80%;
+  margin: 0 auto;
 }
