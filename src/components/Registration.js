@@ -5,10 +5,10 @@ class Registration extends Component {
   render() {
     return (
       <div className="container">
-        <p>registration</p>
-        <div className="widget-container">
-            <healcode-widget data-type="appointments" data-widget-partner="object" data-widget-id="b551635b8be" data-widget-version="0" ></healcode-widget>
+        <div className="page-header-reg">
+          <h1 className="page-header-text">Registration</h1>
         </div>
+       <p className="training-header">form here</p>
       </div>
     );
   }

@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow|Barlow+Condensed:100');
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
 .header {
   display: flex;
   flex-direction: row;
@@ -144,6 +147,11 @@ a {
   opacity: 1;
 }
 
+.services-training1:hover .img__description_layer {
+ visibility: visible;
+ opacity: 1;
+}
+
  .services-camps:hover .img__description_layer {
   visibility: visible;
   opacity: 1;
@@ -214,6 +222,25 @@ a {
   color: #2E5378;
   width: 100%;
   margin-top: 10vh;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.title2-comingsoon {
+  margin: 0;
+  font-size: 10em;
+  color: #2E5378;
+  width: 100%;
+  margin-top: 30vh;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+
+
+.title3 {
+  margin: 0;
+  font-size: 10em;
+  color: #2E5378;
+  width: 100%;
   font-family: 'Barlow Condensed', sans-serif;
 }
 
@@ -334,6 +361,21 @@ margin-top: 10px;
   border-radius: 50px;
 }
 
+.page-header-reg {
+  background-color: #2E5378;
+  position: absolute;
+  color: #FFF;
+  height: 13vh;
+  width: 36%;
+  left: 50%;
+  margin-left: -18%;
+  top: 14%;
+  font-size: 2.5em;
+  z-index: 1;
+  border-radius: 50px;
+  font-family: 'Barlow', sans-serif;
+}
+
 .page-header-text {
   position: relative;
   margin: 0;
@@ -375,7 +417,7 @@ margin-top: 10px;
 .training-text {
   padding-left: 0;
   color: #2E5378;
-  font-size: 2vw;
+  font-size: 1.5vw;
   text-align: left;
   font-family: 'Barlow Condensed', sans-serif;
   list-style-type: square;
@@ -391,45 +433,45 @@ margin-top: 10px;
 }
 
 .training-header {
-  font-size: 3.5em;
+  font-size: 4vw;
   margin-bottom: 0;
   color: #2E5378;
   font-family: 'Barlow Condensed', sans-serif;
 }
 
 .training {
- width:48%;
+ width:50%;
+ margin-top: 5vh;
+}
+
+.training3 {
+ width:50%;
+}
+
+.training-pic {
+  height: 45vh;
+ margin-top: 10vh;
+ width: 50%;
+ background: url('https://cdn.shopify.com/s/files/1/0022/0391/0213/files/website_3.jpg?13120178400612520949') center center no-repeat;
+ background-size:cover;
+ position: relative;
+}
+
+.training-pic2 {
+ height: 45vh;
+ width: 50%;
+ background: url('https://cdn.shopify.com/s/files/1/0022/0391/0213/files/website_3.jpg?13120178400612520949') center center no-repeat;
+ background-size:cover;
+ position: relative;
+}
+
+.camps {
+ width:70%;
  text-decoration: none;
  border: 1px solid black;
  border-radius: 5;
  margin-top: 5vh;
  height: 450px;
-}
-
-.training:hover, .camps:hover {
-  background-color: rgba(0,0,0,0.1);
-}
-
-.camps {
-  width:90%;
-  text-decoration: none;
-  border: 1px solid black;
-  border-radius: 5;
-  margin-top: 3vh;
-}
-
-.camp-header {
-  font-size: 2em;
-  margin-bottom: 0;
-  color: black;
-}
-
-
-.camp-text {
-  padding-left: 0;
-  color: white;
-  font-size: 1.5em;
-  text-align: left;
 }
 
 li {
@@ -444,12 +486,19 @@ li {
   flex-direction: column;
 }
 
+.ul-camps1 {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20%;
+  padding-left: 20%;
+  flex-direction: row;
+}
+
 .ul-training2 {
   display: flex;
   justify-content: center;
   padding-right: 5%;
   padding-left: 5%;
-  padding-top: 7vh;
   flex-direction: column;
 }
 
@@ -478,10 +527,12 @@ li {
   font-family: 'Barlow', sans-serif;
   font-size: 3.5vw;
   margin-top: 0;
+  color: #2E5378;
 }
 
 .about-text {
   font-size: 1.7vw;
+  color: #2E5378;
   font-family: 'Barlow Condensed', sans-serif;
 }
 
@@ -495,8 +546,17 @@ li {
 }
 
 .fas {
-font-size: 6em;
+font-size: 4em;
 padding-right: 30px;
+}
+
+.fa-running  {
+  width: 30%;
+  text-align: center;
+}
+.fa-flask {
+  width: 13.5%;
+  text-align: center;
 }
 
 .description-icon {
@@ -505,4 +565,64 @@ padding-right: 30px;
   justify-content: left;
   width: 80%;
   margin: 0 auto;
+}
+
+.description-icon-strength {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.centered-icon {
+  line-height: 1.5;
+}
+
+.slider-text {
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #2E5378;
+  font-size: 1.8em;
+  font-family: 'Barlow Condensed', sans-serif;
+
+}
+
+.slider-header {
+  color: #2E5378;
+}
+
+.slider-big {
+  height: 48vh
+}
+
+.az-training-button {
+  width: 40%;
+  background-color: pink;
+  height: 7vh;
+  margin-left: 12%;
+}
+
+.az-training-button:hover {
+  background-color: #2E5378
+}
+
+.az-training-button2 {
+  width: 40%;
+  background-color: pink;
+  height: 7vh;
+  margin-left: 18%;
+}
+
+.az-training-button2:hover {
+  background-color: #2E5378
+}
+
+.training-link-text {
+  color: white;
+  font-family: 'Barlow', sans-serif;
+  font-size: 2.8vw;
+  margin-top: 10px;
+  width: 100%;
 }
