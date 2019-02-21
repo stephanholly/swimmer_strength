@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
 class Services extends Component {
   render() {
@@ -19,14 +20,14 @@ class Services extends Component {
                   <ul>
                     <li className="training-text">individual athletic blueprint; upper and lower power, strength, core endurance, and functional movement.</li>
                   </ul>
-                  <li className="training-text">Become and athlete; strong, powerful, durable, explosive, flexible, mobile, and supple.</li>
+                  <li className="training-text">Become an athlete; strong, powerful, durable, explosive, flexible, mobile, and supple.</li>
                   <li className="training-text">Holistic training approach;</li>
                     <ul>
                       <li className="training-text">Introducing the importance of integration among dryland, diet, sleep, imagery, optimism, willingness, technical perfection, and mindfulness.</li>
                     </ul>
                 </ul>
                 <div className="az-training-button">
-                  <a className="training-link-text" href="http://www.google.com">sign up here</a>
+                  <Link to="/aztraining" className="training-link-text">sign up here</Link>
                 </div>
                 </div>
             </div>
@@ -44,7 +45,7 @@ class Services extends Component {
                       <li className="training-text">Receiving monthly tasks to focus on phyisically and mentally</li>
                     </ul>
                     <div className="az-training-button2">
-                      <a className="training-link-text" href="http://www.google.com">sign up here</a>
+                    <Link to="/onlinetraining" className="training-link-text">sign up here</Link>
                     </div>
                 </div>
               </div>
@@ -85,16 +86,16 @@ class Services extends Component {
           </div>
         </div>
         <div class="products-gear">
-          <h1 className="title">Consulting</h1>
+          <h1 className="title">Workshops</h1>
           <div class="img__description_layer">
-            <h1 className="title2-comingsoon">Consulting</h1>
+            <h1 className="title2-comingsoon">Workshops</h1>
             <p className="title3">COMING SOON</p>
           </div>
         </div>
         <div class="products-gear">
-          <h1 className="title">Workshops</h1>
+          <h1 className="title">Consulting</h1>
           <div class="img__description_layer">
-            <h1 className="title2-comingsoon">Workshops</h1>
+            <h1 className="title2-comingsoon">Consulting</h1>
             <p className="title3">COMING SOON</p>
           </div>
         </div>

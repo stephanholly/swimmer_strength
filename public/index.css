@@ -17,6 +17,10 @@
   width: 20%
 }
 
+iframe {
+  margin-top: 15vh;
+}
+
 .headerlink {
   padding-top: 2em;
   font-family: 'Barlow', sans-serif;
@@ -369,6 +373,21 @@ margin-top: 10px;
   width: 36%;
   left: 50%;
   margin-left: -18%;
+  top: 14%;
+  font-size: 2.5em;
+  z-index: 1;
+  border-radius: 50px;
+  font-family: 'Barlow', sans-serif;
+}
+
+.page-header-large {
+  background-color: #2E5378;
+  position: absolute;
+  color: #FFF;
+  height: 13vh;
+  width: 50%;
+  left: 50%;
+  margin-left: -25%;
   top: 14%;
   font-size: 2.5em;
   z-index: 1;

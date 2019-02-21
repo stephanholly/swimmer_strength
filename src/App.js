@@ -13,6 +13,9 @@ import Services from './components/Services';
 import Products from './components/Products';
 import Events from './components/Events';
 import Registration from './components/Registration'
+import AzTraining from './components/AzTraining'
+import OnlineTraining from './components/OnlineTraining'
+
 
 class App extends Component {
   render() {
@@ -50,6 +53,9 @@ class App extends Component {
           <Route path="/products/" component={Products} />
           <Route path="/events/" component={Events} />
           <Route path="/registration/" component={Registration} />
+          <Route path="/aztraining/" component={AzTraining} />
+          <Route path="/onlinetraining/" component={OnlineTraining} />
+
       </div>
     </Router>
     );
