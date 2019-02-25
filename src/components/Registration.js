@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import RegisterForm from './RegisterForm';
 
 class Registration extends Component {
 
@@ -9,7 +10,9 @@ class Registration extends Component {
         <div className="page-header-reg">
           <h1 className="page-header-text">Registration</h1>
         </div>
-       <p className="training-header">form here</p>
+        <div className="register-page-form">
+        <RegisterForm />
+       </div>
       </div>
     );
   }

@@ -323,6 +323,10 @@ a {
 width: 100%
 }
 
+.pic-dev {
+  width: 10%;
+}
+
 .actual1{
 width: 100%;
 background-color: black;
@@ -335,7 +339,7 @@ margin-top: 10px;
   flex-direction: row;
   justify-content: space-between;
   padding-bottom: 4%;
-  background-color: rgba(128,128,128, 0.2);
+  background-color: rgba(128,128,128, 0.1);
 }
 
 .home-about-pic {
@@ -383,36 +387,22 @@ margin-top: 10px;
   top: 14%;
   font-size: 2.5em;
   z-index: 1;
-  border-radius: 50px;
+  border-radius: 8px;
   font-family: 'Barlow', sans-serif;
-}
-
-.page-header-rel {
-  background-color: #2E5378;
-  position: relative;
-  color: #FFF;
-  height: 13vh;
-  width: 32%;
-  left: 50%;
-  margin-left: -16%;
-  top: 17%;
-  font-size: 2.5em;
-  z-index: 1;
-  border-radius: 50px;
 }
 
 .page-header-reg {
   background-color: #2E5378;
   position: absolute;
   color: #FFF;
-  height: 13vh;
+  height: 14vh;
   width: 36%;
   left: 50%;
   margin-left: -18%;
   top: 14%;
   font-size: 2.5em;
   z-index: 1;
-  border-radius: 50px;
+  border-radius: 8px;
   font-family: 'Barlow', sans-serif;
 }
 
@@ -427,7 +417,7 @@ margin-top: 10px;
   top: 14%;
   font-size: 2.5em;
   z-index: 1;
-  border-radius: 50px;
+  border-radius: 8px;
   font-family: 'Barlow', sans-serif;
 }
 
@@ -472,7 +462,25 @@ margin-top: 10px;
 .training-text {
   padding-left: 0;
   color: #2E5378;
-  font-size: 1.5vw;
+  font-size: 2.5vw;
+  text-align: left;
+  font-family: 'Barlow Condensed', sans-serif;
+  list-style-type: square;
+}
+
+.training-text2 {
+  padding-left: 0;
+  color: #2E5378;
+  font-size: 2.3vw;
+  text-align: left;
+  font-family: 'Barlow Condensed', sans-serif;
+  list-style-type: square;
+}
+
+.training-text3 {
+  padding-left: 0;
+  color: #2E5378;
+  font-size: 2vw;
   text-align: left;
   font-family: 'Barlow Condensed', sans-serif;
   list-style-type: square;
@@ -494,7 +502,7 @@ margin-top: 10px;
   font-family: 'Barlow Condensed', sans-serif;
 }
 
-.training-header-camps {
+.training-header-sub {
   font-size: 4vw;
   margin-bottom: 0;
   margin-top: 0;
@@ -507,6 +515,11 @@ margin-top: 10px;
  margin-top: 8vh;
 }
 
+.training-camp {
+ width:50%;
+ margin-top: 3vh;
+}
+
 .training3 {
  width:50%;
 }
@@ -515,16 +528,25 @@ margin-top: 10px;
  height: 50vh;
  margin-top: 10vh;
  width: 50%;
- background: url('https://cdn.shopify.com/s/files/1/0022/0391/0213/files/website_3.jpg?13120178400612520949') center center no-repeat;
+ background: url('https://i.imgur.com/LwNIVQv.jpg') center center no-repeat;
  background-size:cover;
  position: relative;
 }
 
-.training-pic-sub {
+.training-pic-sub1 {
  height: 50vh;
  margin-top: 7.5vh;
  width: 50%;
- background: url('https://cdn.shopify.com/s/files/1/0022/0391/0213/files/website_3.jpg?13120178400612520949') center center no-repeat;
+ background: url('https://i.imgur.com/Q7fa6Mc.jpg') center center no-repeat;
+ background-size:cover;
+ position: relative;
+}
+
+.training-pic-sub2 {
+ height: 50vh;
+ margin-top: 7.5vh;
+ width: 50%;
+ background: url('https://i.imgur.com/UQIN9k2.jpg') center center no-repeat;
  background-size:cover;
  position: relative;
 }
@@ -558,6 +580,14 @@ li {
   flex-direction: row;
 }
 
+.ul-camps2 {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 5%;
+  padding-left: 5%;
+  flex-direction: row;
+}
+
 .ul-training2 {
   display: flex;
   justify-content: center;
@@ -566,9 +596,13 @@ li {
   flex-direction: column;
 }
 
+.ul-camp-width {
+  width: 50%
+}
+
 .register-link {
     font-size: 3em;
-    background-color: #2E5378;
+    background-color: #D65745;
     padding-bottom: 1%;
     width: 70%;
     margin: 0 auto;
@@ -615,12 +649,13 @@ padding-right: 30px;
 }
 
 .fa-running  {
-  width: 30%;
+  width: 34%;
   text-align: center;
 }
 .fa-flask {
-  width: 13.5%;
+  width: 30%;
   text-align: center;
+  padding-top: 10px;
 }
 
 .description-icon {
@@ -648,7 +683,7 @@ padding-right: 30px;
   padding-left: 10%;
   padding-right: 10%;
   color: #2E5378;
-  font-size: 1.8em;
+  font-size: 2.2vw;
   font-family: 'Barlow Condensed', sans-serif;
 
 }
@@ -657,15 +692,12 @@ padding-right: 30px;
   color: #2E5378;
 }
 
-.slider-big {
-  height: 48vh
-}
-
 .az-training-button {
   width: 40%;
-  background-color: pink;
-  height: 7vh;
-  margin-left: 12%;
+  background-color: #D65745;
+  height: 9vh;
+  margin-left: 5%;
+  border-radius: 8px;
 }
 
 .az-training-button:hover {
@@ -674,9 +706,11 @@ padding-right: 30px;
 
 .az-training-button2 {
   width: 40%;
-  background-color: pink;
-  height: 7vh;
-  margin-left: 18%;
+  background-color: #D65745;
+  height: 8vh;
+  align-self: center;
+  border-radius: 8px;
+
 }
 
 .az-training-button2:hover {
@@ -686,7 +720,112 @@ padding-right: 30px;
 .training-link-text {
   color: white;
   font-family: 'Barlow', sans-serif;
-  font-size: 2.8vw;
+  font-size: 2vw;
   margin-top: 10px;
   width: 100%;
+}
+
+.training-link-text2 {
+  color: white;
+  font-family: 'Barlow', sans-serif;
+  font-size: 3vw;
+  width: 100%;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* contact form */
+.header-text-form {
+  color: #2E5378;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 2vw;
+  margin-top: 0;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5%;
+  min-width: 500px;
+
+}
+
+.inner-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.left-inputs {
+  display: flex;
+  flex-direction: column;
+  width: 45%
+}
+.right-inputs {
+  width: 50%;
+}
+
+.text-input-contact {
+  border:1px solid #2E5378;
+  font-size: 1.5vw;
+  outline:0;
+  padding: 1em;
+  border-radius: 8px;
+  width: 86%;
+  margin-top: 1em;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.text-input-contact-first {
+  border:1px solid #2E5378;
+  font-size: 1.5vw;
+  outline:0;
+  padding: 1em;
+  border-radius: 8px;
+  width: 86%;
+  margin-top: 0.5em;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.text-input-submit {
+  background-color: #D65745;
+  outline:0;
+  padding: 1em;
+  border-radius: 8px;
+  width: 100%;
+  margin-top: 1em;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1.5vw;
+  color: white;
+}
+
+.text-input-textarea {
+  border:1px solid #2E5378;
+  outline:0;
+  padding: 1em;
+  border-radius: 8px;
+  width: 86%;
+  margin-top: 0.5em;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1.5vw;
+  height: 79%
+}
+
+form {
+  width: 50%;
+}
+
+.register-page-form {
+  padding-top: 10%;
+}
+
+.grey {
+  background-color: rgba(128,128,128, 0.1);
 }

@@ -25,7 +25,7 @@ class Home extends Component {
             </div>
             <div className="description-icon">
               <i class="fas fa-flask"></i>
-              <p>Using sport science to ensure results.</p>
+              <p>We use sport science data that is peer-reviewed to ensure effective and efficient results in our swimmers that aim to prevent injury.</p>
             </div>
             <div className="description-icon-strength">
               <i class="fas fa-dumbbell"></i>
@@ -54,8 +54,8 @@ class Home extends Component {
             <div className='pic'>
               <img className="actual" src='https://i.imgur.com/CmzzzCe.png' alt="logo"/>
             </div>
-            <div className='pic'>
-              <img className="actual" src='https://i.imgur.com/zVDHTOz.png' alt="logo"/>
+            <div className='pic-dev'>
+              <img className="actual" src='https://i.imgur.com/t4Rze73.png' alt="logo"/>
             </div>
           </div>
         </div>
