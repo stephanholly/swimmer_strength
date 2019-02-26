@@ -6,9 +6,9 @@ class Home extends Component {
     return (
       <div className="container">
         <div className="video-title">
-          <video className="main-video" loop autoPlay>
-              <source src='video1.mp4' type="video/mp4" />
-          </video>
+        <video className="main-video">
+          <source crossorigin src="https://player.vimeo.com/video/319634508?autoplay=1&loop=1&title=0&byline=0&portrait=0"/>
+        </video>
           <div className="overlay">
             <h1 className="big">Swimmer Strength</h1>
             <p className="small">strength training that gets you faster<br/>& reduces risk of injury</p>
