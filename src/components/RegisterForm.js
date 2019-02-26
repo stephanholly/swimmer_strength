@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 
 
-class RegisterForm
- extends Component {
+class RegisterForm extends Component {
   render() {
     return (
       <div className="container">
-        <h3 className="header-text-form">Introduce yourself to get started on improving your swimming and strength with Swimmer Strength!</h3>
+        <h3 className="header-text-form2">Introduce yourself to get started on improving your swimming and strength with Swimmer Strength!</h3>
         <div className="form-container">
           <form>
             <div className="inner-form">
@@ -27,5 +26,4 @@ class RegisterForm
   }
 }
 
-export default RegisterForm
-;
+export default RegisterForm;

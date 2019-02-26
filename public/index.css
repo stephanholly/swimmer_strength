@@ -468,6 +468,15 @@ margin-top: 10px;
   list-style-type: square;
 }
 
+.training-text-centered {
+  padding-left: 0;
+  color: #2E5378;
+  font-size: 2.5vw;
+  text-align: centered;
+  font-family: 'Barlow Condensed', sans-serif;
+  list-style-type: square;
+}
+
 .training-text2 {
   padding-left: 0;
   color: #2E5378;
@@ -685,7 +694,14 @@ padding-right: 30px;
   color: #2E5378;
   font-size: 2.2vw;
   font-family: 'Barlow Condensed', sans-serif;
+}
 
+.video-text-ind {
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #2E5378;
+  font-size: 2vw;
+  font-family: 'Barlow Condensed', sans-serif;
 }
 
 .slider-header {
@@ -730,6 +746,15 @@ padding-right: 30px;
   font-family: 'Barlow', sans-serif;
   font-size: 3vw;
   width: 100%;
+
+}
+
+.training-link-text3 {
+  color: white;
+  font-family: 'Barlow', sans-serif;
+  font-size: 2.3vw;
+  width: 100%;
+    margin-top: 10px;
 }
 
 .form-container {
@@ -740,13 +765,25 @@ padding-right: 30px;
 /* contact form */
 .header-text-form {
   color: #2E5378;
+  font-family: 'Barlow', sans-serif;
+  font-size: 2.5vw;
+  margin-top: 0;
+}
+
+.header-text-form2 {
+  color: #2E5378;
   font-family: 'Barlow Condensed', sans-serif;
-  font-size: 2vw;
+  font-size: 2.0vw;
   margin-top: 0;
 }
 
 .no-margin-bottom {
   margin-bottom: 0;
+}
+
+.no-margin-top-vid {
+  margin-top: 0;
+  margin-bottom: 10vh;
 }
 
 .form-container {
@@ -769,6 +806,8 @@ padding-right: 30px;
   width: 45%
 }
 .right-inputs {
+  display: flex;
+  flex-direction: column;
   width: 50%;
 }
 
@@ -781,6 +820,18 @@ padding-right: 30px;
   width: 86%;
   margin-top: 1em;
   font-family: 'Barlow Condensed', sans-serif;
+}
+
+.text-input-contact-date {
+  border:1px solid #2E5378;
+  font-size: 1.5vw;
+  outline:0;
+  padding: 1em;
+  border-radius: 8px;
+  margin-top: 1em;
+  width: 19.5vw;
+  font-family: 'Barlow Condensed', sans-serif;
+  align-self: left;
 }
 
 .text-input-contact-first {
@@ -806,6 +857,14 @@ padding-right: 30px;
   color: white;
 }
 
+.text-input-checkbox {
+  font-size: 1.8vw;
+  outline:0;
+  padding: 0.2em;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-align: left;
+}
+
 .text-input-textarea {
   border:1px solid #2E5378;
   outline:0;
@@ -823,9 +882,41 @@ form {
 }
 
 .register-page-form {
-  padding-top: 10%;
+  padding-top: 7%;
 }
 
 .grey {
   background-color: rgba(128,128,128, 0.1);
+}
+
+.text-input-textarea-camp {
+  border:1px solid #2E5378;
+  outline:0;
+  padding: 1em;
+  border-radius: 8px;
+  width: 86%;
+  margin-top: 0.5em;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1.5vw;
+  height: 19%
+}
+
+input[type='checkbox'] {
+  margin-right: 5px;
+}
+
+.checkbox-text {
+  font-family: 'Barlow', sans-serif;
+  font-size: 2.5vw;
+  color: #2E5378;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 8%;
 }

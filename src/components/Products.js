@@ -11,7 +11,9 @@ class Products extends Component {
         <div class="services-training-3">
           <h1 className="title">SS Gear</h1>
           <div class="img__description_layer">
-            <p className="title3">COMING SOON</p>
+            <a href="https://squareup.com/store/swimmer-strength">
+              <p className="title3">SHOP HERE</p>
+            </a>
           </div>
         </div>
         <div class="services-training-5">

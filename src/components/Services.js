@@ -81,7 +81,7 @@ class Services extends Component {
                   </ul>
                   </div>
                   <div className="az-training-button2">
-                    <Link to="/aztraining" className="training-link-text2">sign up here</Link>
+                    <Link to="/campquestionnaire" className="training-link-text2">sign up here</Link>
                   </div>
                 </div>
               </div>

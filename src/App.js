@@ -16,6 +16,8 @@ import Registration from './components/Registration'
 import AzTrainingMesa from './components/AzTrainingMesa'
 import AzTrainingTempe from './components/AzTrainingTempe'
 import OnlineTraining from './components/OnlineTraining'
+import CampQuestionnaire from './components/CampQuestionnaire'
+import Videos from './components/Videos'
 
 
 class App extends Component {
@@ -57,6 +59,8 @@ class App extends Component {
           <Route path="/aztraining-mesa/" component={AzTrainingMesa}/>
           <Route path="/aztraining-tempe/" component={AzTrainingTempe}/>
           <Route path="/onlinetraining/" component={OnlineTraining} />
+          <Route path="/campquestionnaire/" component={CampQuestionnaire} />
+          <Route path="/videos/" component={Videos} />
 
       </div>
     </Router>
