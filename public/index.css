@@ -712,13 +712,14 @@ padding-right: 30px;
 .az-training-button {
   width: 40%;
   background-color: #D65745;
-  height: 9vh;
+  height: 8.5vh;
   margin-left: 5%;
-  border-radius: 8px;
+  /* border-radius: 8px; */
 }
-
+``
 .az-training-button:hover {
   background-color: #2E5378
+
 }
 
 .az-training-button2 {
@@ -726,18 +727,28 @@ padding-right: 30px;
   background-color: #D65745;
   height: 8vh;
   align-self: center;
-  border-radius: 8px;
+  /* border-radius: 8px; */
+}
 
+
+.az-training-button3 {
+  width: 40%;
+  background-color: #D65745;
+  height: 6.5vh;
+  align-self: center;
+  padding-top: 8px;
+  /* border-radius: 8px; */
 }
 
 .az-training-button2:hover {
   background-color: #2E5378
+
 }
 
 .training-link-text {
   color: white;
   font-family: 'Barlow', sans-serif;
-  font-size: 2vw;
+  font-size: 1.8vw;
   margin-top: 10px;
   width: 100%;
 }
@@ -747,7 +758,6 @@ padding-right: 30px;
   font-family: 'Barlow', sans-serif;
   font-size: 3vw;
   width: 100%;
-
 }
 
 .training-link-text3 {
@@ -755,7 +765,7 @@ padding-right: 30px;
   font-family: 'Barlow', sans-serif;
   font-size: 2.3vw;
   width: 100%;
-    margin-top: 10px;
+  margin-top: 10vh;
 }
 
 .form-container {

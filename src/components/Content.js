@@ -18,7 +18,7 @@ class Content extends Component {
               <div className="ul-training1">
                 <p className="training-text-centered">We feature free videos with swimmer relevant exercises in fun ways. This is our way of bringing you the latest research in innovative ways – enjoy.</p>
                 <div className="training-descriptions">
-                  <div className="az-training-button2">
+                  <div className="az-training-button3">
                     <Link to="/videos" className="training-link-text3">See More Videos</Link>
                   </div>
                 </div>
