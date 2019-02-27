@@ -4,7 +4,7 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import 'react-datepicker/dist/react-datepicker-cssmodules.css';
 
-class CampQuestionnaire extends Component {
+class WorkshopQuestionnaire extends Component {
   constructor(props) {
   super(props);
   this.state = {
@@ -28,10 +28,10 @@ handleChangeEnd = (date) => {
   render() {
     return (
       <div className="container">
-        <h3 className="header-text-form">Let's plan a camp with Swimmer Strength!</h3>
+        <h3 className="header-text-form">Let's plan a workshop with Swimmer Strength!</h3>
         <div className="form-container">
           <form>
-          <input type="hidden" name="camp" value="camp"/>
+          <input type="hidden" name="workshop" value="workshop"/>
             <div className="inner-form">
               <div className="left-inputs">
                 <input className="text-input-contact-first" type="text" placeholder="Name" required/>
@@ -62,7 +62,7 @@ handleChangeEnd = (date) => {
                 />
               </div>
               <div className="right-inputs">
-                <p className="checkbox-text">What would you like included in this camp?</p>
+                <p className="checkbox-text">What would you like included in this workshop?</p>
                 <div className="text-input-checkbox">
                   <input className="text-input-checkbox" type="checkbox" name="strength training" id="contactChoice1"/>
                   <label for="contactChoice1">Strength Training</label>
@@ -103,4 +103,4 @@ handleChangeEnd = (date) => {
   }
 }
 
-export default CampQuestionnaire;
+export default WorkshopQuestionnaire;

@@ -40,7 +40,7 @@ class Services extends Component {
           <div class="img__description_layer">
             <div className="training-descriptions">
               <div className="training-pic-sub1"></div>
-            <div className="training">
+            <div className="training-other">
                 <h1 className="training-header-sub">Online-based Training</h1>
                   <div className="ul-training1">
                     <p className="training-text-first">Same philosophy as the Arizona-based Training +:</p>
@@ -69,7 +69,7 @@ class Services extends Component {
                   <div className="ul-camps2">
                   <ul className="ul-camp-width">
                     <li className="training-text3">Fundamentals to strength training for swimming</li>
-                    <li className="training-text3">Introduction to Olympic lifting</li>
+                    <li className="training-text3">Intro to Olympic lifting</li>
                     <li className="training-text3">Core Training</li>
                   </ul>
                   <ul className="ul-camp-width">
@@ -93,7 +93,30 @@ class Services extends Component {
         <div class="services-training-4">
           <h1 className="title">Workshops</h1>
           <div class="img__description_layer">
-            <p className="title3">COMING SOON</p>
+          <div className="training-descriptions">
+            <div className="training-pic-sub3"></div>
+            <div className="training-other">
+              <h1 className="training-header-sub">Have Coach Deniz come to your<br/>team for a workshop!</h1>
+                <div className="ul-training1">
+                <p className="training-text-first">Workshops are hands-on technical workouts including:</p>
+                <div className="ul-camps2">
+                <ul className="ul-camp-width">
+                  <li className="training-text3">Strength and Dryland</li>
+                  <li className="training-text3">Improving Starts</li>
+                  <li className="training-text3">Basic mobility</li>
+                </ul>
+                <ul className="ul-camp-width">
+                  <li className="training-text3">Defining core muscles</li>
+                  <li className="training-text3">Squat and jump technique</li>
+                  <li className="training-text3">Shoulder blade use</li>
+                </ul>
+                </div>
+                <div className="az-training-button2">
+                  <Link to="/workshopquestionnaire" className="training-link-text2">sign up here</Link>
+                </div>
+              </div>
+            </div>
+          </div>
           </div>
         </div>
 

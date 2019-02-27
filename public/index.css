@@ -524,6 +524,11 @@ margin-top: 10px;
  margin-top: 8vh;
 }
 
+.training-other {
+ width:50%;
+ margin-top: 5vh;
+}
+
 .training-camp {
  width:50%;
  margin-top: 3vh;
@@ -556,6 +561,15 @@ margin-top: 10px;
  margin-top: 7.5vh;
  width: 50%;
  background: url('https://i.imgur.com/UQIN9k2.jpg') center center no-repeat;
+ background-size:cover;
+ position: relative;
+}
+
+.training-pic-sub3 {
+ height: 50vh;
+ margin-top: 7.5vh;
+ width: 50%;
+ background: url('https://i.imgur.com/ObfPlgo.jpg') center center no-repeat;
  background-size:cover;
  position: relative;
 }
