@@ -25,7 +25,7 @@ class Content extends Component {
               </div>
             </div>
 
-            <iframe width="555" height="312" src="https://www.youtube.com/embed/YKiZkgINMak" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe className="video-page-video" title="ss1" width="555" height="312" src="https://www.youtube.com/embed/YKiZkgINMak" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
           </div>
           </div>

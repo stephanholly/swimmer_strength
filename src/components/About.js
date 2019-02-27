@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Slider from "react-slick";
+import ReactPlayer from 'react-player'
+
 
 import RegisterForm from './RegisterForm'
 
@@ -21,9 +23,9 @@ class About extends Component {
           <h1 className="page-header-text">About</h1>
         </div>
         <div className="video-title">
-          <video className="main-video" loop autoPlay>
-              <source src='video1.mp4' type="video/mp4" />
-          </video>
+        <div className="main-video">
+          <ReactPlayer className="player" url="https://player.vimeo.com/video/320030298" width='100%' height='100%' playing/>
+        </div>
         </div>
         <div className="home-about">
           <div className="home-about-pic">

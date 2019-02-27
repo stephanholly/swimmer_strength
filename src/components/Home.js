@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom'
+import ReactPlayer from 'react-player'
+
 
 class Home extends Component {
   render() {
     return (
       <div className="container">
         <div className="video-title">
-        <video className="main-video">
-          <source crossorigin src="https://player.vimeo.com/video/319634508?autoplay=1&loop=1&title=0&byline=0&portrait=0"/>
-        </video>
+        <div className="main-video">
+        <ReactPlayer className="player" url="https://player.vimeo.com/video/319634508" width='100%' height='100%' playing loop/>
+        </div>
           <div className="overlay">
             <h1 className="big">Swimmer Strength</h1>
             <p className="small">strength training that gets you faster<br/>& reduces risk of injury</p>

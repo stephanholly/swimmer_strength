@@ -17,9 +17,6 @@
   width: 20%
 }
 
-iframe {
-  margin-top: 15vh;
-}
 
 .headerlink {
   padding-top: 2em;
@@ -37,12 +34,9 @@ a {
  }
 
 .main-video {
-  position:relative;
   z-index:0;
-  width: 100%;
-  top:0;
-  left:0;
-  height:100%;
+  position: relative;
+  padding-top: 56.25%
 }
 
 .overlay {
@@ -448,7 +442,8 @@ margin-top: 10px;
 
 .big {
   margin: 0;
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 15vw;
 }
 
 .small {
@@ -922,4 +917,17 @@ input[type='checkbox'] {
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 8%;
+}
+
+
+.video-page-video {
+  margin-top: 15vh;
+}
+
+.player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
