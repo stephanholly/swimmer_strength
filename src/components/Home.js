@@ -13,7 +13,10 @@ class Home extends Component {
         </div>
           <div className="overlay">
             <h1 className="big">Swimmer Strength</h1>
-            <p className="small">strength training that gets you faster<br/>& reduces risk of injury</p>
+            <p className="small">strength training that gets you faster & reduces risk of injury</p>
+            <div className="register-link">
+              <Link to="/registration"><h1 className="register-link-text">Start Training Today!</h1></Link>
+            </div>
           </div>
         </div>
         <div className="who-we-are">
@@ -38,9 +41,6 @@ class Home extends Component {
               <p>With patience & passion, we document our progress to provide quality content with context to give exceptional value for our Swimmer Strength community.</p>
             </div>
           </div>
-        </div>
-        <div className="register-link">
-          <Link to="/registration"><h1 className="register-link-text">Start Training Today!</h1></Link>
         </div>
         <div className="affiliates">
           <div className="home-header">

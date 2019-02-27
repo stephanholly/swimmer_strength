@@ -22,10 +22,10 @@ class Services extends Component {
                   </ul>
                   <div className="training-descriptions">
                     <div className="az-training-button">
-                      <a href="http://www.localhost:3000/aztraining-mesa" className="training-link-text">Train at our Mesa Location</a>
+                      <a href="https://obscure-anchorage-69628.herokuapp.com/aztraining-mesa" className="training-link-text">Train at our Mesa Location</a>
                     </div>
                     <div className="az-training-button">
-                      <a href="http://www.localhost:3000/aztraining-tempe" className="training-link-text">Train at our Tempe Location</a>
+                      <a href="https://obscure-anchorage-69628.herokuapp.com/aztraining-tempe" className="training-link-text">Train at our Tempe Location</a>
                     </div>
                   </div>
                 </div>
@@ -50,7 +50,7 @@ class Services extends Component {
                       <li className="training-text2">Monthly tasks to focus on phyisically and mentally</li>
                     </ul>
                     <div className="az-training-button2">
-                    <a href="http://www.localhost:3000/onlinetraining" className="training-link-text2">sign up here</a>
+                    <a href="https://obscure-anchorage-69628.herokuapp.com/onlinetraining" className="training-link-text2">sign up here</a>
                     </div>
                 </div>
               </div>
