@@ -13,7 +13,7 @@ class AzTrainingMesa extends Component {
       document.getElementById("widget").remove();
     }
     const scriptMesa = document.createElement("script");
-    scriptMesa.src = 'https://squareup.com/appointments/buyer/widget/3c6a0422-57f3-4d03-9258-c1360999fb3b/Q8CZXZQ71FD3Z.js'
+    scriptMesa.src = 'https://squareup.com/appointments/buyer/widget/5acf2700-412a-42f4-8935-0149348d20e5/Q8CZXZQ71FD3Z.js'
     scriptMesa.async = true;
     document.body.appendChild(scriptMesa);
     scriptMesa.setAttribute("id", "widget");

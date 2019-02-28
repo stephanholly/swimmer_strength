@@ -12,7 +12,7 @@ class AzTrainingTempe extends Component {
       document.getElementById("widget").remove();
     }
     const scriptTempe = document.createElement("script");
-    scriptTempe.src = 'https://squareup.com/appointments/buyer/widget/3c6a0422-57f3-4d03-9258-c1360999fb3b/95RCK6V6806HM.js'
+    scriptTempe.src = 'https://squareup.com/appointments/buyer/widget/8ed57df8-85c5-4076-82d4-bdab07318c07/95RCK6V6806HM.js'
     scriptTempe.async = true;
     document.body.appendChild(scriptTempe);
     scriptTempe.setAttribute("id", "widget");

@@ -30,24 +30,32 @@ class App extends Component {
           <div className="logo">
             <img className="media-object" src='/images/swimmerstrength.png' alt="logo" />
           </div>
-          <div className="headerlink">
-            <Link to="/"><h2>Home</h2></Link>
+          <div id="main-menu" className="main-menu" aria-label="Main menu">
+            <a href="#main-menu-toggle"
+               id="main-menu-close"
+               className="menu-close"
+               aria-label="Close main menu">
+              <span className="sr-only">Close main menu</span>
+              <span className="fa fa-close" aria-hidden="true"></span>
+            </a>
+              <div className="headerlink"><Link to="/"><h2>Home</h2></Link></div>
+              <div className="headerlink"><Link to="/about"><h2>About</h2></Link></div>
+              <div className="headerlink"><Link to="/services"><h2>Services</h2></Link></div>
+              <div className="headerlink"><Link to="/content"><h2>Content</h2></Link></div>
+              <div className="headerlink"><Link to="/products"><h2>Products</h2></Link></div>
+              <div className="headerlink"><Link to="/events"><h2>Events</h2></Link></div>
           </div>
-          <div className="headerlink">
-            <Link to="/about"><h2>About</h2></Link>
-          </div>
-          <div className="headerlink">
-            <Link to="/services"><h2>Services</h2></Link>
-          </div>
-          <div className="headerlink">
-            <Link to="/content"><h2>Content</h2></Link>
-          </div>
-          <div className="headerlink">
-            <Link to="/products"><h2>Products</h2></Link>
-          </div>
-          <div className="headerlink">
-            <Link to="/events"><h2>Events</h2></Link>
-          </div>
+          <a href="#main-menu-toggle"
+             className="backdrop"
+             tabindex="-1"
+             aria-hidden="true" hidden></a>
+          <a href="#main-menu"
+             id="main-menu-toggle"
+             className="menu-toggle"
+             aria-label="Open main menu">
+            <span className="sr-only">Open main menu</span>
+            <span className="fa fa-bars" aria-hidden="true"></span>
+          </a>
         </div>
 
           <Route path="/" exact component={Home} />
