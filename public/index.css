@@ -1004,6 +1004,9 @@ input[type='checkbox'] {
   .register-link {
     margin-top: 0.5vh;
   }
+  .register-link-text {
+    font-size: 2.5vw;
+  }
 
   .headerlink {
       visibility: hidden;
