@@ -9,7 +9,7 @@ class Content extends Component {
         <div className="page-header">
           <h1 className="page-header-text">Content</h1>
         </div>
-        <div class="services-training-4">
+        <div class="services-training-4 top-section">
           <h1 className="title">Videos</h1>
           <div class="img__description_layer">
           <div className="training-descriptions">

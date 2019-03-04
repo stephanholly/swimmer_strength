@@ -15,7 +15,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  height: 23vh;
   padding-right: 20%;
+  padding-left: 20%;
 }
 
 .media-object {
@@ -24,10 +26,14 @@
   padding: 0.75em 0 0.75em 0 ;
 }
 
-.logo {
-  width: 20%
-}
 
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #2E5378;
+  width: 18%;
+}
 
 .headerlink {
   padding-top: 2em;
@@ -35,6 +41,9 @@
   padding-left: 5px;
 }
 
+.headerlink > a>h2 {
+  font-size: 2.5vw;
+}
 
 .dropdown-container {
   position: absolute;
@@ -64,7 +73,6 @@
 
 #fa-bars {
   font-size: 3em;
-
 }
 
 a {
@@ -114,6 +122,9 @@ a {
     position: relative;
 }
 
+.top-section {
+  margin-top: 0%
+}
 
 .services-training-1 {
     height:65vh;
@@ -406,6 +417,10 @@ margin-top: 10px;
   font-family: 'Barlow', sans-serif;
 }
 
+.contact-header {
+  padding-top:5vh;
+}
+
 .who-we-are-text {
   padding-left: 10%;
   padding-right: 10%;
@@ -694,6 +709,10 @@ li {
   font-size: 3.5vw;
   margin-top: 0;
   color: #2E5378;
+}
+
+.mobile-about-header, .mobile-about-header1 {
+  display: none;
 }
 
 .about-text {
@@ -1010,6 +1029,10 @@ input[type='checkbox'] {
     font-size:1.5em;
   }
 
+  .header {
+    height: 18vh;;
+  }
+
   .register-link {
     display: none;
   }
@@ -1072,4 +1095,124 @@ input[type='checkbox'] {
      margin-bottom: 5px;
    }
 
+   .page-header, .page-header-reg {
+     background-color: rgba(46, 83, 120, 0.8);
+     position: relative;
+     color: #FFF;
+     height: unset;
+     width: 100%;
+     left: 0%;
+     margin-left: 0%;
+     font-family: 'Barlow', sans-serif;
+   }
+
+   .page-header-text {
+     position: relative;
+     margin: 0;
+     color: white;
+     font-size: 18vw;
+     top: 0%;
+     left: 0%;
+     font-size: 15vw;
+     transform: translate(0%, 0%);
+     padding-top: 3%;
+     padding-bottom: 3%;
+
+   }
+
+   .home-about {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     padding-bottom: 4%;
+     background-color: rgba(128,128,128, 0.1);
+   }
+
+   .home-about-pic {
+
+     padding-top: 8%;
+     width: 100%;
+   }
+
+   .home-pic {
+     width: 90%;
+   }
+
+   .home-about-bio {
+     padding-top: 2%;
+     width: 90%;
+     font-size: 20vw;
+     margin: 0 auto;
+     padding-right: 0%;
+   }
+
+   .mobile-about-header {
+     color:  #2E5378;
+     display: block;
+     font-size: 15vw;
+     margin-bottom: 0;
+   }
+
+   .mobile-about-header1 {
+     color:  #2E5378;
+     display: block;
+     font-size: 7vw;
+   }
+
+   .about-header {
+     display: none;
+   }
+
+   .about-text {
+     font-size: 5vw;
+     color: #2E5378;
+     font-family: 'Barlow Condensed', sans-serif;
+     text-align: center;
+   }
+
+   .slider-text {
+     padding-left: 10%;
+     padding-right: 10%;
+     color: #2E5378;
+     font-size: 5vw;
+     font-family: 'Barlow Condensed', sans-serif;
+   }
+
+   .testimonial-header-mobile {
+     margin-bottom: 0;
+   }
+
+   .header-text-form2 {
+     color: #2E5378;
+     font-family: 'Barlow Condensed', sans-serif;
+     font-size: 5.0vw;
+     margin-top: 0;
+   }
+
+   .form-container {
+     min-width: 0px;
+   }
+
+   .inner-form{
+     flex-direction: column;
+   }
+
+   #mc-embedded-subscribe-form, .right-inputs, .left-inputs{
+     width: 100%;
+     align-items: center;
+   }
+
+   .text-input-contact-first, .text-input-contact, .text-input-textarea, .text-input-submit {
+     width: 85%;
+     font-size: 5vw;
+     margin-top: 0.5em;
+
+   }
+   .top-section {
+     margin-top: 0%
+   }
+
+   .logo{
+     left: 3%;
+   }
 }

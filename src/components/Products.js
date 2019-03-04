@@ -8,7 +8,7 @@ class Products extends Component {
         <div className="page-header">
           <h1 className="page-header-text">Products</h1>
         </div>
-        <div class="services-training-3">
+        <div class="services-training-3 top-section">
           <h1 className="title">SS Gear</h1>
           <div class="img__description_layer">
             <a href="https://squareup.com/store/swimmer-strength">

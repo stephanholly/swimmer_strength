@@ -28,6 +28,8 @@ class About extends Component {
         </div>
         </div>
         <div className="home-about">
+        <h1 className="mobile-about-header">Your coach</h1>
+        <h1 className="mobile-about-header1">Deniz Hekmati, MS, CSCS</h1>
           <div className="home-about-pic">
             <img className="home-pic" src="https://i.imgur.com/4WbcVSx.jpg" alt="deniz portrait"/>
           </div>
@@ -37,7 +39,7 @@ class About extends Component {
           </div>
         </div>
         <div className="home-header">
-          <h1>Testimonials</h1>
+          <h1 className="testimonial-header-mobile">Testimonials</h1>
         </div>
         <Slider {...settings}>
          <div>
@@ -57,7 +59,7 @@ class About extends Component {
        </Slider>
       <div className="grey">
         <div className="home-header">
-          <h1 className="no-margin-bottom">Contact</h1>
+          <h1 className="no-margin-bottom contact-header">Contact</h1>
         </div>
         <RegisterForm/>
       </div>

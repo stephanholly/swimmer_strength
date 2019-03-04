@@ -8,7 +8,7 @@ class Services extends Component {
         <div className="page-header">
           <h1 className="page-header-text">Services</h1>
         </div>
-        <div class="services-training-1">
+        <div class="services-training-1 top-section">
           <h1 className="title">Arizona Strength Training</h1>
           <div class="img__description_layer">
             <div className="training-descriptions">
