@@ -28,10 +28,10 @@ class App extends Component {
 
   dropdownToggle = () => {
     var x = document.getElementById("dropdown-container");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
+    if (x.style.display === "block") {
       x.style.display = "none";
+    } else {
+      x.style.display = "block";
     }
   }
 
@@ -47,9 +47,11 @@ class App extends Component {
       <Router>
       <div className="App">
         <header className="header">
-          <div className="logo">
-            <img className="media-object" src='/images/swimmerstrength.png' alt="logo" />
-          </div>
+          <Link to="/">
+            <div className="logo">
+              <img className="media-object" src='/images/swimmerstrength.png' alt="logo" />
+            </div>
+          </Link>
           <div className="headerlink"><Link to="/"><h2>Home</h2></Link></div>
           <div className="headerlink"><Link to="/about"><h2>About</h2></Link></div>
           <div className="headerlink"><Link to="/services"><h2>Services</h2></Link></div>
