@@ -19,6 +19,9 @@ class Home extends Component {
             </div>
           </div>
         </div>
+        <div className="mobile-register-link">
+          <Link to="/registration"><h1 className="mobile-register-link-text">Click here to start training today!</h1></Link>
+        </div>
         <div className="who-we-are">
           <div className="home-header">
             <h1>Who We Are</h1>
