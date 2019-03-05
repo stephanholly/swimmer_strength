@@ -9,7 +9,7 @@ class Home extends Component {
       <div className="container">
         <div className="video-title">
         <div className="main-video">
-        <ReactPlayer className="player" url="https://player.vimeo.com/video/319634508" width='100%' height='100%' playing loop/>
+        <ReactPlayer className="player" config={{ file: { attributes: {autoPlay: true, muted: true}}}} url="https://player.vimeo.com/video/319634508" width='100%' height='100%' playing loop/>
         </div>
           <div className="overlay">
             <h1 className="big">Swimmer Strength</h1>
