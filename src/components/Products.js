@@ -19,7 +19,7 @@ class Products extends Component {
         <div class="services-training-5">
           <h1 className="title">Downloadable Programs</h1>
           <div class="img__description_layer">
-            <p className="title-coming-soon">COMING SOON</p>
+            <p className="title-coming-soon">DOWNLOADABLE PROGRAMS COMING SOON</p>
           </div>
         </div>
       </div>
