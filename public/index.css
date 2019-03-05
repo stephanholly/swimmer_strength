@@ -1272,7 +1272,7 @@ input[type='checkbox'] {
       visibility: unset;
     }
 
-   .services-training-4{
+   .services-training-4, .services-training-5{
       height: 60vh;
       background-color: transparent;
       background-size: cover;
@@ -1294,10 +1294,6 @@ input[type='checkbox'] {
       position: relative;
       opacity: 1;
       visibility: unset;
-    }
-
-    .services-training-5{
-      display: none;
     }
 
     .title {

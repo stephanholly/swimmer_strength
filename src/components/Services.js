@@ -123,7 +123,7 @@ class Services extends Component {
         <div class="services-training-5">
           <h1 className="title">Consulting</h1>
           <div class="img__description_layer">
-            <p className="title-coming-soon">COMING SOON</p>
+            <p className="title-coming-soon">CONSULTING COMING SOON</p>
           </div>
         </div>
       </div>
