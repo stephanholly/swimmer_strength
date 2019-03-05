@@ -30,7 +30,7 @@ handleChangeEnd = (date) => {
       <div className="container">
         <h3 className="header-text-form">Let's plan a workshop with Swimmer Strength!</h3>
         <div className="form-container">
-          <form>
+          <form className="mobile-form-quest">
           <input type="hidden" name="workshop" value="workshop"/>
             <div className="inner-form">
               <div className="left-inputs">

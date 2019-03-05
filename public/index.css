@@ -1414,4 +1414,47 @@ input[type='checkbox'] {
     font-size: 10vw;
   }
 
+  .header-text-form {
+    color: #2E5378;
+    font-family: 'Barlow', sans-serif;
+    font-size: 9vw;
+    margin-top: 0;
+  }
+  .mobile-form-quest {
+    width:100%;
+  }
+
+  .text-input-contact-date {
+    border:1px solid #2E5378;
+    font-size: 5vw;
+    outline:0;
+    padding: 1em;
+    border-radius: 8px;
+    margin-top: 1em;
+    width: 85%;
+    font-family: 'Barlow Condensed', sans-serif;
+    align-self: left;
+  }
+  .react-datepicker-wrapper, .react-datepicker__input-container {
+    width: 100%;
+  }
+
+  .checkbox-text {
+    font-size: 8vw;
+    padding-top: 1%;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  .text-input-checkbox {
+   align-self: flex-start;
+   font-size: 7vw;
+   padding-left: 5%;
+  }
+
+.text-input-textarea-camp{
+  width: 85%;
+    font-size: 5vw;
+    margin-top: 0.5em;
+  }
 }
