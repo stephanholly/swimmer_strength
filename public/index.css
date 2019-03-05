@@ -1252,7 +1252,7 @@ input[type='checkbox'] {
       height: 60vh;
       background-color: transparent;
       background-size: cover;
-      min-height: 50%;
+      min-height: 100%;
       bottom: 0;
       width: 100%;
       position: relative;
@@ -1260,11 +1260,11 @@ input[type='checkbox'] {
       visibility: unset;
     }
 
-    .services-training-2, .services-training-3 {
+    .services-training-2  {
       height: 65vh;
       background-color: transparent;
       background-size: cover;
-      min-height: 50%;
+      min-height: 100%;
       bottom: 0;
       width: 100%;
       position: relative;
@@ -1272,11 +1272,11 @@ input[type='checkbox'] {
       visibility: unset;
     }
 
-   .services-training-4, .services-training-5{
+ .services-training-5{
       height: 60vh;
       background-color: transparent;
       background-size: cover;
-      min-height: 50%;
+      min-height: 100%;
       bottom: 0;
       width: 100%;
       position: relative;
@@ -1284,11 +1284,11 @@ input[type='checkbox'] {
       visibility: unset;
     }
 
-   .services-training-videos{
+   .services-training-videos, .services-training-3, .services-training-4{
       height: 75vh;
       background-color: transparent;
       background-size: cover;
-      min-height: 50%;
+      min-height: 100%;
       bottom: 0;
       width: 100%;
       position: relative;
