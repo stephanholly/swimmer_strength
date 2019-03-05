@@ -1250,7 +1250,7 @@ input[type='checkbox'] {
    }
 
     .services-training-2, .services-training-1, .services-training-5 {
-      height: 65vh;
+      height: 500px;
       background-color: transparent;
       background-size: cover;
       min-height: 100%;
@@ -1263,7 +1263,7 @@ input[type='checkbox'] {
 
 
    .services-training-videos, .services-training-3, .services-training-4{
-      height: 75vh;
+      height: 600px;
       background-color: transparent;
       background-size: cover;
       min-height: 100%;
