@@ -8,7 +8,7 @@ class Products extends Component {
         <div className="page-header">
           <h1 className="page-header-text">Products</h1>
         </div>
-        <div class="services-training-3 top-section">
+        <div class="services-training-4 top-section">
           <h1 className="title">SS Gear</h1>
           <div class="img__description_layer">
             <a href="https://squareup.com/store/swimmer-strength">
@@ -19,7 +19,7 @@ class Products extends Component {
         <div class="services-training-5">
           <h1 className="title">Downloadable Programs</h1>
           <div class="img__description_layer">
-            <p className="title3">COMING SOON</p>
+            <p className="title-coming-soon">COMING SOON</p>
           </div>
         </div>
       </div>

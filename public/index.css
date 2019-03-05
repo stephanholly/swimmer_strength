@@ -166,6 +166,18 @@ a {
     position: relative;
     display: table;
 }
+
+.services-training-videos {
+    height:65vh;
+    background-color: #236B8E;
+    background-size:cover;
+    min-height:50%;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+    display: table;
+}
+
 .services-training-5 {
     height:60vh;
     background-color: #B4CDCD;
@@ -241,6 +253,11 @@ a {
  .services-training-1:hover .img__description_layer {
   visibility: visible;
   opacity: 1;
+}
+
+.services-training-videos:hover .img__description_layer {
+ visibility: visible;
+ opacity: 1;
 }
 
 .services-training-2:hover .img__description_layer {
@@ -325,6 +342,18 @@ a {
 }
 
 .title3 {
+  position: absolute;
+  margin: 0;
+  font-size: 10em;
+  color: #2E5378;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.title-coming-soon {
   position: absolute;
   margin: 0;
   font-size: 10em;
@@ -788,7 +817,7 @@ padding-right: 30px;
 
 .az-training-button {
   width: 40%;
-  background-color: #D65745;
+  background-color: #5D92B1;
   height: 8.5vh;
   margin-left: 5%;
   /* border-radius: 8px; */
@@ -801,7 +830,7 @@ padding-right: 30px;
 
 .az-training-button2 {
   width: 40%;
-  background-color: #D65745;
+  background-color: #5D92B1;
   height: 8vh;
   align-self: center;
   /* border-radius: 8px; */
@@ -810,7 +839,7 @@ padding-right: 30px;
 
 .az-training-button3 {
   width: 40%;
-  background-color: #D65745;
+  background-color: #5D92B1;
   height: 6.5vh;
   align-self: center;
   padding-top: 8px;
@@ -934,7 +963,7 @@ padding-right: 30px;
 }
 
 .text-input-submit {
-  background-color: #D65745;
+  background-color: #5D92B1;
   outline:0;
   padding: 1em;
   border-radius: 8px;
@@ -1012,6 +1041,10 @@ input[type='checkbox'] {
 
 .video-page-video {
   margin-top: 15vh;
+}
+
+.mobile-video-page-video {
+  display: none;
 }
 
 .player {
@@ -1095,8 +1128,8 @@ input[type='checkbox'] {
      margin-bottom: 5px;
    }
 
-   .page-header, .page-header-reg {
-     background-color: rgba(46, 83, 120, 0.8);
+   .page-header, .page-header-reg, .page-header-large {
+     background-color: #2E5378;;
      position: relative;
      color: #FFF;
      height: unset;
@@ -1106,6 +1139,7 @@ input[type='checkbox'] {
      font-family: 'Barlow', sans-serif;
    }
 
+
    .page-header-text {
      position: relative;
      margin: 0;
@@ -1113,10 +1147,10 @@ input[type='checkbox'] {
      font-size: 18vw;
      top: 0%;
      left: 0%;
-     font-size: 15vw;
+     font-size: 14vw;
      transform: translate(0%, 0%);
-     padding-top: 3%;
-     padding-bottom: 3%;
+     padding-top: 5%;
+     padding-bottom: 5%;
 
    }
 
@@ -1206,7 +1240,6 @@ input[type='checkbox'] {
      width: 85%;
      font-size: 5vw;
      margin-top: 0.5em;
-
    }
    .top-section {
      margin-top: 0%
@@ -1215,4 +1248,171 @@ input[type='checkbox'] {
    .logo{
      left: 3%;
    }
+    .services-training-1, .services-training-2 {
+      height: 55vh;
+      background-color: transparent;
+      background-size: cover;
+      min-height: 50%;
+      bottom: 0;
+      width: 100%;
+      position: relative;
+      opacity: 1;
+      visibility: unset;
+    }
+
+    .services-training-3, .services-training-4{
+      height: 60vh;
+      background-color: transparent;
+      background-size: cover;
+      min-height: 50%;
+      bottom: 0;
+      width: 100%;
+      position: relative;
+      opacity: 1;
+      visibility: unset;
+    }
+
+   .services-training-videos{
+      height: 75vh;
+      background-color: transparent;
+      background-size: cover;
+      min-height: 50%;
+      bottom: 0;
+      width: 100%;
+      position: relative;
+      opacity: 1;
+      visibility: unset;
+    }
+
+    .services-training-5{
+      display: none;
+    }
+
+    .title {
+      display: none;
+    }
+
+    .img__description_layer {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .training-descriptions {
+      flex-direction: column;
+    }
+
+    .training, .training-other, .training-camp {
+      width: 100%;
+      margin-top: 2vh;
+    }
+
+     .training-other {
+      width: 100%;
+      margin-top: 4vh;
+    }
+
+    .training-header {
+      font-size: 12vw;
+      margin: 0;
+      margin-top: 5%;
+  }
+
+  .training-header-sub {
+    font-size: 12vw;
+    margin: 0;
+    margin-top: 0;
+  }
+
+  .training-text, .training-text2, .training-text3 {
+      font-size: 6vw;
+    }
+
+  .az-training-button, .az-training-button2 {
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom:2%;
+    padding-top: 5%;
+  }
+
+  .az-training-button3 {
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom:2%;
+    padding-top: 5%;
+    margin-top: 3%;
+  }
+
+  .training-link-text{
+    font-size: 7vw;
+  }
+
+  .training-text-centered{
+    font-size: 5vw;
+  }
+
+  .training-link-text2, .training-link-text3 {
+    font-size: 9vw;
+  }
+
+  .training-text-first {
+    font-size: 5vw;
+  }
+  .training-pic, .training-pic-sub1, .training-pic-sub2, .training-pic-sub3{
+    display: none;
+  }
+
+  .ul-camps2 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .title3 {
+    font-size: 20vw;
+    background-color: #5D92B1;
+    width: 90%;
+    color: white;
+  }
+
+  .title-coming-soon {
+    position: absolute;
+    margin: 0;
+    font-size: 16vw;
+    color: #2E5378;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    font-family: 'Barlow Condensed', sans-serif;
+  }
+
+  .video-page-video {
+    display: none;
+  }
+
+
+  .mobile-video-page-video {
+    display:block;
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+  }
+
+  .video-container {
+    margin-top: 0%;
+  }
+
+  .no-margin-top-vid {
+    margin-top: 0;
+    margin-bottom: 10vh;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .video-text-ind {
+    font-size: 10vw;
+  }
+
 }
