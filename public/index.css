@@ -1262,8 +1262,20 @@ input[type='checkbox'] {
     }
 
 
-   .services-training-videos, .services-training-3, .services-training-4{
+   .services-training-3, .services-training-4{
       height: 600px;
+      background-color: transparent;
+      background-size: cover;
+      min-height: 100%;
+      bottom: 0;
+      width: 100%;
+      position: relative;
+      opacity: 1;
+      visibility: unset;
+    }
+
+    .services-training-videos {
+      height: 650px;
       background-color: transparent;
       background-size: cover;
       min-height: 100%;
