@@ -459,6 +459,8 @@ margin-top: 10px;
   font-family: 'Barlow', sans-serif;
   color: #2E5378;
   text-align: left;
+  max-width: 950px;
+  margin: 0 auto;
 }
 
 .page-header {
@@ -1396,7 +1398,7 @@ input[type='checkbox'] {
       left: 0;
       width: 100%;
     }
-  
+
 
   .video-container {
     margin-top: 0%;
