@@ -3,5 +3,6 @@ const PageContent = styled.div`
   margin: 0 auto;
   max-width: 960px;
   padding: 1.5rem;
+  padding-top: 5rem;
 `
 export default PageContent
