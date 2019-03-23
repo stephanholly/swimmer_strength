@@ -32,7 +32,17 @@ class Content extends Component {
         <div class="services-training-3">
            <h1 className="title">Blog</h1>
            <div class="img__description_layer">
-             <p className="title-coming-soon">BLOG COMING SOON</p>
+             <div className="training-blog">
+               <h1 className="training-header">Blog</h1>
+               <div className="ul-training1">
+                 <p className="training-text-centered">We feature free videos with swimmer relevant exercises in fun ways. This is our way of bringing you the latest research in innovative ways – enjoy.</p>
+                 <div className="training-descriptions">
+                   <div className="az-training-button3">
+                     <Link to="/blog" className="training-link-text3">Blog</Link>
+                   </div>
+                 </div>
+               </div>
+             </div>
            </div>
          </div>
       </div>

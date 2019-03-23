@@ -8,6 +8,7 @@ class Services extends Component {
         <div className="page-header">
           <h1 className="page-header-text">Services</h1>
         </div>
+
         <div class="services-training-1 top-section">
           <h1 className="title">Arizona Strength Training</h1>
           <div class="img__description_layer">
@@ -77,7 +78,6 @@ class Services extends Component {
                     <li className="training-text3">Proper Recovery</li>
                     <li className="training-text3">Sports Sychology</li>
                     <li className="training-text3">Muscle physiology</li>
-
                   </ul>
                   </div>
                   <div className="az-training-button2">
@@ -123,7 +123,25 @@ class Services extends Component {
         <div class="services-training-5">
           <h1 className="title">Consulting</h1>
           <div class="img__description_layer">
-            <p className="title-coming-soon">CONSULTING COMING SOON</p>
+            <div className="training-descriptions">
+              <div className="training-camp">
+                <h1 className="training-header-sub">Get insight on how to improve <br/> your program with Coach Deniz!</h1>
+                <div className="ul-training1">
+                  <p className="training-text-first">Consulting include:</p>
+                  <div className="ul-camps2">
+                  <ul className="ul-camp-width2">
+                    <li className="training-text3">Debunk your main issues and concerns regarding swimming related strength and dryland training</li>
+                    <li className="training-text3">Get insights on how to best utilize dryland training</li>
+                    <li className="training-text3">Get recommended exercise lists specific to your needs</li>
+                  </ul>
+                  </div>
+                  <div className="az-training-button2">
+                    <a href="http://obscure-anchorage-69628.herokuapp.com/onlinetraining" className="training-link-text2">sign up here</a>
+                  </div>
+                </div>
+              </div>
+            <div className="training-pic-cons"></div>
+            </div>
           </div>
         </div>
       </div>

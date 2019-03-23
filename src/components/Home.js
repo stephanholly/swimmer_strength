@@ -29,19 +29,19 @@ class Home extends Component {
           <div className="who-we-are-text">
             <div className="description-icon">
               <i class="fas fa-swimmer centered-icon"></i>
-              <p>We embody high-performance training for the swimming community, striving to leave a positive impact with faster swimming and reduced injuries.</p>
+              <p>We embody high-performance training for the swimming community, striving to positively evolve the modern dryland environment.</p>
             </div>
             <div className="description-icon">
               <i class="fas fa-flask"></i>
-              <p>We use sport science data that is peer-reviewed to ensure effective and efficient results in our swimmers that aim to prevent injury.</p>
+              <p>We are data driven and use sport science to guide us with each athlete and team to ensure the best results and minimal risk of injuries.</p>
             </div>
             <div className="description-icon-strength">
               <i class="fas fa-dumbbell"></i>
-              <p>Your reliable and entertaining source of strength training for competitive swimmers.</p>
+              <p>We make swimmers holistically athletic; strength, power, range of motion, recovery, and the mental game.</p>
             </div>
             <div className="description-icon">
               <i class="fas fa-running centered-icon"></i>
-              <p>With patience & passion, we document our progress to provide quality content with context to give exceptional value for our Swimmer Strength community.</p>
+              <p> We aim to bring our Swimmer Strength community nothing but the best to give you the most value.</p>
             </div>
           </div>
         </div>

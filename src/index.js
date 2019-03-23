@@ -3,6 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import * as contentful from 'contentful'
+
+
+var client = contentful.createClient({
+  space: 'viy9hsoregkv',
+  accessToken: '56ce63633197de161178c5ba416fb7d647c318fcf1b4270173d9d80db356e23a' })
+client.getEntries().then(entries => {
+  entries.items.forEach(entry => {
+    if(entry.fields) {
+      console.log(entry.fields)
+    }
+  })
+})
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

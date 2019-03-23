@@ -5,7 +5,6 @@ import {
   Route,
   Link
 } from 'react-router-dom'
-import { stack as Menu } from 'react-burger-menu'
 
 
 import Home from './components/Home';
@@ -21,17 +20,28 @@ import OnlineTraining from './components/OnlineTraining'
 import CampQuestionnaire from './components/CampQuestionnaire'
 import WorkshopQuestionnaire from './components/WorkshopQuestionnaire'
 import Videos from './components/Videos'
+import Blog from './components/Blog'
+import BlogPost from './components/BlogPost'
+
+
 
 
 class App extends Component {
-
+  constructor(props) {
+    super(props);
+    this.state = {
+      open: false
+    };
+  }
 
   dropdownToggle = () => {
     var x = document.getElementById("dropdown-container");
     if (x.style.display === "block") {
       x.style.display = "none";
+      this.setState({open:false});
     } else {
       x.style.display = "block";
+      this.setState({open:true});
     }
   }
 
@@ -39,6 +49,7 @@ class App extends Component {
     var x = document.getElementById("dropdown-container");
     if (x.style.display === "block") {
       x.style.display = "none";
+      this.setState({open:false});
     }
   }
 
@@ -58,7 +69,7 @@ class App extends Component {
           <div className="headerlink"><Link to="/content"><h2>Content</h2></Link></div>
           <div className="headerlink"><Link to="/products"><h2>Products</h2></Link></div>
           <div className="headerlink"><Link to="/events"><h2>Events</h2></Link></div>
-          <i id="fa-bars" className="fas fa-bars" onClick={()=> this.dropdownToggle()}></i>
+          {!this.state.open ? <i id="fa-bars" className="fas fa-bars" onClick={()=> this.dropdownToggle()}></i> : <i id="fa-bars" className="fas fa-times" onClick={()=> this.dropdownToggle()}></i>}
         </header>
         <div id="dropdown-container" className="dropdown-container">
           <div className="dropdownlink" onClick={()=> this.dropdownMenuClose()}><Link to="/"><h2>Home</h2></Link></div>
@@ -82,6 +93,9 @@ class App extends Component {
           <Route path="/campquestionnaire/" component={CampQuestionnaire} />
           <Route path="/workshopquestionnaire/" component={WorkshopQuestionnaire} />
           <Route path="/videos/" component={Videos} />
+          <Route exact path="/blog/" component={Blog} />
+          <Route path='/blog/:blogPost' component={BlogPost}/>
+
 
       </div>
     </Router>
