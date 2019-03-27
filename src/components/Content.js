@@ -12,7 +12,7 @@ class Content extends Component {
         <div class="services-training-videos top-section">
           <h1 className="title">Videos</h1>
           <div class="img__description_layer">
-          <div className="training-descriptions">
+          <div className="training-descriptions card">
             <div className="training">
               <h1 className="training-header">Videos</h1>
               <div className="ul-training1">
@@ -32,7 +32,7 @@ class Content extends Component {
         <div class="services-training-3">
            <h1 className="title">Blog</h1>
            <div class="img__description_layer">
-             <div className="training-blog">
+             <div className="training-blog card">
                <h1 className="training-header">Blog</h1>
                <div className="ul-training1">
                  <p className="training-text-centered">We feature free videos with swimmer relevant exercises in fun ways. This is our way of bringing you the latest research in innovative ways – enjoy.</p>

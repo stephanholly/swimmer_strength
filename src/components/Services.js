@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
+import { Card } from 'react-bootstrap';
+
 
 class Services extends Component {
   render() {
@@ -12,7 +14,7 @@ class Services extends Component {
         <div class="services-training-1 top-section">
           <h1 className="title">Arizona Strength Training</h1>
           <div class="img__description_layer">
-            <div className="training-descriptions">
+            <div className="training-descriptions card">
               <div className="training">
                 <h1 className="training-header">Arizona-based Training</h1>
                 <div className="ul-training1">
@@ -39,7 +41,7 @@ class Services extends Component {
         <div class="services-training-2">
           <h1 className="title">Online Strength Training</h1>
           <div class="img__description_layer">
-            <div className="training-descriptions">
+            <div className="training-descriptions card">
               <div className="training-pic-sub1"></div>
             <div className="training-other">
                 <h1 className="training-header-sub">Online-based Training</h1>
@@ -62,7 +64,7 @@ class Services extends Component {
         <div class="services-training-3">
           <h1 className="title">Camps</h1>
           <div class="img__description_layer">
-            <div className="training-descriptions">
+            <div className="training-descriptions card">
               <div className="training-camp">
                 <h1 className="training-header-sub">Put on a camp<br/> with Coach Deniz and your team!</h1>
                 <div className="ul-training1">
@@ -76,7 +78,6 @@ class Services extends Component {
                   <ul className="ul-camp-width">
                     <li className="training-text3">Injury prevention</li>
                     <li className="training-text3">Proper Recovery</li>
-                    <li className="training-text3">Sports Sychology</li>
                     <li className="training-text3">Muscle physiology</li>
                   </ul>
                   </div>
@@ -93,7 +94,7 @@ class Services extends Component {
         <div class="services-training-4">
           <h1 className="title">Workshops</h1>
           <div class="img__description_layer">
-          <div className="training-descriptions">
+          <div className="training-descriptions card">
             <div className="training-pic-sub3"></div>
             <div className="training-other">
               <h1 className="training-header-sub">Have Coach Deniz come to your<br/>team for a workshop!</h1>
@@ -123,7 +124,7 @@ class Services extends Component {
         <div class="services-training-5">
           <h1 className="title">Consulting</h1>
           <div class="img__description_layer">
-            <div className="training-descriptions">
+            <div className="training-descriptions card">
               <div className="training-camp">
                 <h1 className="training-header-sub">Get insight on how to improve <br/> your program with Coach Deniz!</h1>
                 <div className="ul-training1">

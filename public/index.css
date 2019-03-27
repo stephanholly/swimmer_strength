@@ -1247,7 +1247,7 @@ input[type='checkbox'] {
    }
 
    .page-header, .page-header-reg, .page-header-large {
-     background-color: #2E5378;;
+     background-color: #2E5378;
      position: relative;
      color: #FFF;
      height: unset;
@@ -1372,8 +1372,20 @@ input[type='checkbox'] {
      left: 3%;
    }
 
-    .services-training-2, .services-training-1 {
-      height: 500px;
+     .services-training-1 {
+      height: 520px;
+      background-color: transparent;
+      background-size: cover;
+      min-height: 100%;
+      bottom: 0;
+      width: 100%;
+      position: relative;
+      opacity: 1;
+      visibility: unset;
+    }
+
+    .services-training-2{
+      height: 440px;
       background-color: transparent;
       background-size: cover;
       min-height: 100%;
@@ -1386,7 +1398,7 @@ input[type='checkbox'] {
 
 
     .services-training-5 {
-      height: 550px;
+      height: 560px;
       background-color: transparent;
       background-size: cover;
       min-height: 100%;
@@ -1398,8 +1410,20 @@ input[type='checkbox'] {
     }
 
 
-   .services-training-3, .services-training-4{
-      height: 600px;
+   .services-training-4{
+      height: 580px;
+      background-color: transparent;
+      background-size: cover;
+      min-height: 100%;
+      bottom: 0;
+      width: 100%;
+      position: relative;
+      opacity: 1;
+      visibility: unset;
+    }
+
+    .services-training-3 {
+      height: 550px;
       background-color: transparent;
       background-size: cover;
       min-height: 100%;
@@ -1482,7 +1506,7 @@ input[type='checkbox'] {
   }
 
   .training-link-text{
-    font-size: 7vw;
+    font-size: 6.5vw;
   }
 
   .training-text-centered{
@@ -1617,4 +1641,10 @@ input[type='checkbox'] {
   max-height: 80px;
 }
 
+.card {
+  border: solid 1px #6891AE;
+  margin: 10px;
+  padding: 5px;
+  background-color: rgba(238, 238, 238, 1);
+}
 }

@@ -11,7 +11,7 @@ class Events extends Component {
         <div class="services-training-4 top-section">
           <h1 className="title">Events</h1>
           <div class="img__description_layer">
-            <p className="title-coming-soon">COMING SOON</p>
+            <p className="title-coming-soon card">COMING SOON</p>
           </div>
         </div>
       </div>
