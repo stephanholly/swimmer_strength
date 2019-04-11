@@ -91,7 +91,9 @@ handleLoad = () => {
                 <input id="subject" className="text-input-contact required" type="text" placeholder="Subject" name="SUBJECT" required/>
               </div>
               <div className="right-inputs">
-                <textarea id="message" name="message" className="text-input-textarea required" type="text" placeholder="Message" required></textarea>
+                <textarea id="message" name="message" className="text-input-textarea required" type="text" placeholder="Message" required>
+                {this.props.freeTrial}
+                </textarea>
               </div>
             </div>
             { !this.state.loading ?

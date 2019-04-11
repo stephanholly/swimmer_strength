@@ -45,6 +45,11 @@ class Home extends Component {
             </div>
           </div>
         </div>
+        <Link to={{ pathname: '/registration', state: { trial: 'Sign me up for a 10-day free Online Training!'} }}>
+          <div className="home-signup">
+            <h1 className="padding">Click here to get 10-Days free Online Training</h1>
+          </div>
+        </Link>
         <div className="affiliates">
           <div className="home-header">
             <h1>Trusted Affiliates</h1>
