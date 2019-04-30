@@ -22,6 +22,9 @@ import WorkshopQuestionnaire from './components/WorkshopQuestionnaire'
 import Videos from './components/Videos'
 import Blog from './components/Blog'
 import BlogPost from './components/BlogPost'
+import TenDayFreeTrial from './components/TenDayFreeTrial'
+import TenDayForm from './components/TenDayForm'
+
 
 
 
@@ -87,6 +90,7 @@ class App extends Component {
           <Route path="/products/" component={Products} />
           <Route path="/events/" component={Events} />
           <Route path="/registration/" component={Registration} />
+          <Route path="/tenDayFreeTrial/" component={TenDayFreeTrial} />
           <Route path="/aztraining-mesa/" component={AzTrainingMesa}/>
           <Route path="/aztraining-tempe/" component={AzTrainingTempe}/>
           <Route path="/onlinetraining/" component={OnlineTraining} />

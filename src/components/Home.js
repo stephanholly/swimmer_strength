@@ -20,7 +20,7 @@ class Home extends Component {
           </div>
         </div>
         <div className="mobile-register-link">
-          <Link to="/registration"><h1 className="mobile-register-link-text">Click here to start training today!</h1></Link>
+          <Link to="/10DayFreeTrial"><h1 className="mobile-register-link-text">Click here to start training today!</h1></Link>
         </div>
         <div className="who-we-are">
           <div className="home-header">
@@ -45,7 +45,7 @@ class Home extends Component {
             </div>
           </div>
         </div>
-        <Link to={{ pathname: '/registration', state: { trial: 'Sign me up for a 10-day free Online Training!'} }}>
+        <Link to={{ pathname: '/tenDayFreeTrial' }}>
           <div className="home-signup">
             <h1 className="padding">Click here to get 10-Days free Online Training</h1>
           </div>

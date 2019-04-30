@@ -31,7 +31,7 @@ class About extends Component {
         <h1 className="mobile-about-header">Your coach</h1>
         <h1 className="mobile-about-header1">Deniz Hekmati, MS, CSCS</h1>
           <div className="home-about-pic">
-            <img className="home-pic" src="https://i.imgur.com/4WbcVSx.jpg" alt="deniz portrait"/>
+            <img className="home-pic" src="https://i.imgur.com/hGIcEuH.png" alt="deniz portrait"/>
           </div>
           <div className="home-about-bio">
             <h1 className="about-header">Your coach: <br/>Deniz Hekmati, MS, CSCS</h1>

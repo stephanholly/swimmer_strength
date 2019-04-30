@@ -8,6 +8,10 @@ class Videos extends Component {
         <h1 className="page-header-text">Videos</h1>
       </div>
         <div className="actual-vid">
+          <p className="video-text-ind">Swimmer Strength</p>
+          <iframe className="no-margin-top-vid" title="ss2" width="555" height="312" src="https://player.vimeo.com/video/319633873" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div className="actual-vid">
           <p className="video-text-ind">Introduction to Swimmer Strength</p>
           <iframe className="no-margin-top-vid" title="ss2" width="555" height="312" src="https://www.youtube.com/embed/YKiZkgINMak" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>

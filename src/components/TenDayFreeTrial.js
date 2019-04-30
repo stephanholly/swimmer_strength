@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
+import TenDayForm from './TenDayForm';
 
-import RegisterForm from './RegisterForm';
-
-class Registration extends Component {
+class TenDayFreeTrial extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -13,15 +12,15 @@ class Registration extends Component {
     console.log(this.props)
     return (
       <div className="container">
-        <div className="page-header-reg">
-          <h1 className="page-header-text">Registration</h1>
+        <div className="page-header-reg-trial">
+          <h1 className="page-header-text">10-Day Free Trial</h1>
         </div>
         <div className="register-page-form">
-        <RegisterForm/>
+        <TenDayForm/>
        </div>
       </div>
     );
   }
 }
 
-export default Registration;
+export default TenDayFreeTrial;
