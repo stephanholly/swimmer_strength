@@ -1301,7 +1301,7 @@ input[type='checkbox'] {
      margin-bottom: 5px;
    }
 
-   .page-header, .page-header-reg, .page-header-large {
+   .page-header, .page-header-reg, .page-header-reg-trial, .page-header-large {
      background-color: #2E5378;
      position: relative;
      color: #FFF;
@@ -1707,5 +1707,20 @@ input[type='checkbox'] {
   margin: 10px;
   padding: 5px;
   background-color: rgba(238, 238, 238, 1);
+}
+
+.text-input-checkbox-consent {
+  outline:0;
+  padding: 0.2em;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-align: left;
+  white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+#contact-form {
+  width: 90%;
 }
 }

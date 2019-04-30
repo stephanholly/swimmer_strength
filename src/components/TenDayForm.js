@@ -41,6 +41,16 @@ handleLoad = () => {
     document.getElementById('contact-form').reset();
   }
 
+  toggleShow = () => {
+    var x = document.getElementById("consent");
+    console.log('k')
+     if (x.style.whiteSpace === "nowrap") {
+       x.style.whiteSpace = "normal";
+     } else {
+       x.style.whiteSpace = "nowrap";
+     }
+  }
+
   handleSubmit = (e) => {
       e.preventDefault();
 
@@ -115,7 +125,7 @@ handleLoad = () => {
                 <textarea id="goal" name="goal" className="text-input-textarea required" type="text"placeholder="Goal/Objective" required/>
               </div>
             </div>
-            <div className="text-input-checkbox-consent">
+            <div id="consent" className="text-input-checkbox-consent" onClick={this.toggleShow}>
               <input className="text-input-checkbox-consent" type="checkbox" name="start training" id="contactChoice1" onChange={this.handleChoice1}/>
               <label for="contactChoice1">By submitting this form, I hereby give consent to engage in voluntary physical exercise without the supervision of a Swimmer Strength Certified coach. I have been truthful in filling out this form, and ensure that it is I, or a guardian over the age of 18 submitting to submit this form. I understand and have been informed that physical exercise can have effect, but not be limited to, abnormal blood pressure, fainting, dizziness, and disorders of heart rhythm. I further understand that there exist the risk of bodily harm including, but not limited to injuries to muscles, ligaments, tendons, and joints to the body; however, it is clear to me that every effort will be made to minimize these occurrences by proper and safe program design, with appropriate progressions and regressions based on the information I have provided above. Lastly, I have been informed that all of the information obtained in this high-performance training program will be treated as privileged and confidential and will consequently not be released or reveled to any person without my express written consent. </label>
             </div>
