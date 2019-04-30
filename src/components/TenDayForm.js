@@ -71,7 +71,7 @@ handleLoad = () => {
 
       axios({
           method: "POST",
-          url:"http://localhost:3002/tenDayFormSubmit",
+          url:"https://blooming-thicket-90076.herokuapp.com/tenDayFormSubmit",
           data: {
               name: name,
               email: email,
@@ -88,7 +88,7 @@ handleLoad = () => {
             this.handleOpenModal()
               this.resetForm()
           }else if(response.data.msg === 'fail'){
-              console.log(response)
+              console.log(response.data)
               alert("Message failed to send.")
               this.handleLoad()
           }
