@@ -12,7 +12,7 @@ class Blog extends Component {
 
   client = contentful.createClient({
     space: 'viy9hsoregkv',
-    accessToken: '56ce63633197de161178c5ba416fb7d647c318fcf1b4270173d9d80db356e23a'
+    accessToken: '56ce63633197de161178c5ba416fb7d647c318fcf1b4270173d9d80db356e23a',
   })
 
   componentDidMount() {
@@ -21,8 +21,11 @@ class Blog extends Component {
 
   fetchPosts = () => this.client.getEntries()
   setPosts = response => {
+    let fun = response.items.sort((a,b) => (a.fields.date > b.fields.date) ? 1 : ((b.fields.date > a.fields.date) ? -1 : 0));
+    fun = fun.reverse()
+
     this.setState({
-      posts: response.items
+      posts: fun
     })
   }
   render() {

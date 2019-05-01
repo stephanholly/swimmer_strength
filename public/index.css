@@ -1719,8 +1719,15 @@ input[type='checkbox'] {
     overflow: hidden;
 }
 
-
 #contact-form {
   width: 90%;
+}
+
+.small {
+  padding-top: unset;
+}
+
+.home-signup {
+  font-size: 4vw;
 }
 }
