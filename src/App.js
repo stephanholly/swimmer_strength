@@ -23,7 +23,7 @@ import Videos from './components/Videos'
 import Blog from './components/Blog'
 import BlogPost from './components/BlogPost'
 import TenDayFreeTrial from './components/TenDayFreeTrial'
-import TenDayForm from './components/TenDayForm'
+import StartTrainingToday from './components/StartTrainingToday'
 
 
 
@@ -99,6 +99,7 @@ class App extends Component {
           <Route path="/videos/" component={Videos} />
           <Route exact path="/blog/" component={Blog} />
           <Route path='/blog/:blogPost' component={BlogPost}/>
+          <Route path="/start-training-today/" component={StartTrainingToday}/>
 
 
       </div>

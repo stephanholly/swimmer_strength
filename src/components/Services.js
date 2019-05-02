@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import { Card } from 'react-bootstrap';
 
 
 class Services extends Component {
@@ -97,7 +96,7 @@ class Services extends Component {
           <div className="training-descriptions card">
             <div className="training-pic-sub3"></div>
             <div className="training-other">
-              <h1 className="training-header-sub">Have Coach Deniz come to your<br/>team for a workshop!</h1>
+              <h1 className="training-header-sub">Have Coach Deniz come to <br/>your team for a workshop!</h1>
                 <div className="ul-training1">
                 <p className="training-text-first">Workshops are hands-on technical workouts including:</p>
                 <div className="ul-camps2">
@@ -126,14 +125,15 @@ class Services extends Component {
           <div class="img__description_layer">
             <div className="training-descriptions card">
               <div className="training-camp">
-                <h1 className="training-header-sub">Get insight on how to improve <br/> your program with Coach Deniz!</h1>
+                <h1 className="training-header-sub">Consult with Coach Deniz -</h1>
+                <h1 className="training-header-sub-sub">Get insight on how to improve your programs!</h1>
                 <div className="ul-training1">
-                  <p className="training-text-first">Consulting include:</p>
+                  <p className="training-text-first">Consulting includes:</p>
                   <div className="ul-camps2">
                   <ul className="ul-camp-width2">
-                    <li className="training-text3">Debunk your main issues and concerns regarding swimming related strength and dryland training</li>
-                    <li className="training-text3">Get insights on how to best utilize dryland training</li>
-                    <li className="training-text3">Get recommended exercise lists specific to your needs</li>
+                    <li className="training-text3">Debunking the main issues and concerns regarding swimming related strength & drylands training.</li>
+                    <li className="training-text3">Getting insights on how to best utilize optimize your own equipment and space for your team.</li>
+                    <li className="training-text3">Option of including recommended exercise list specific to Your needs.</li>
                   </ul>
                   </div>
                   <div className="az-training-button2">

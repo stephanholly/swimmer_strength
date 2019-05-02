@@ -101,13 +101,13 @@ handleLoad = () => {
         <ReactModal
             isOpen={this.state.showModal}
             contentLabel="Minimal Modal Example"
-            className="modal"
+            className="modal-ten"
          >
           <div className="modal-div">
            <button className="modal-exit" onClick={this.handleCloseModal}>X</button>
-             <h1 className="modal-text">Submission Successful!</h1>
-             <p className="modal-text">We will reach out to you soon.</p>
-             <p className="modal-text">Submission Successful! We will reach out to you soon. Thank you for your interest in Swimmer Strength!</p>
+             <h1 className="modal-text-ten-header">Submission Successful!</h1>
+             <p className="modal-text">Thank you for choosing to try the Swimmer Strength online strength programs.</p>
+             <p className="modal-text">Please allow 72-hours of processing your information, while expecting an email from "Train Heroic" to get instructions to download the app, which will have exercise videos, sets, and repetitions for your convenience. Stay healthy, stay strong.</p>
            </div>
          </ReactModal>
         <h3 className="header-text-form2">Improve your swimming and strength with a core workout from Swimmer Strength!</h3>
@@ -116,20 +116,20 @@ handleLoad = () => {
           <input type="hidden" id="type" name="contact" value="contact"/>
             <div className="inner-form">
               <div className="left-inputs">
-                <input id="name" className="text-input-contact-first required" type="text" placeholder="Name"  name="NAME" required/>
+                <input id="name" className="text-input-contact required" type="text" placeholder="Name"  name="NAME" required/>
+                <input id="email" className="text-input-contact required" type="text" placeholder="Email"  name="EMAIL" required/>
                 <input id="who1" className="text-input-contact required" type="text" placeholder="Are the workouts for you?" name="WHO1" required/>
-                <input id="experience" className="text-input-contact required" type="text" placeholder="Dryland/strength experience (1-10)" name="WHO2" required/>
-                <input id="age" className="text-input-contact required" type="text" placeholder="Age of trainee"  name="AGE" required/>
+                <input id="who2" className="text-input-contact required" type="text" placeholder="If not, for whom?" name="WHO2" />
               </div>
               <div className="right-inputs">
-                <input id="email" className="text-input-contact-first required" type="text" placeholder="Email"  name="EMAIL" required/>
-                <input id="who2" className="text-input-contact required" type="text" placeholder="If not, for whom?" name="WHO2" />
+                <input id="age" className="text-input-contact required" type="text" placeholder="Age of trainee"  name="AGE" required/>
+                <input id="experience" className="text-input-contact required" type="text" placeholder="Dryland/strength experience (1-10)" name="WHO2" required/>
                 <textarea id="goal" name="goal" className="text-input-textarea required" type="text"placeholder="Goal/Objective" required/>
               </div>
             </div>
-            <div id="consent" className="text-input-checkbox-consent" onClick={this.toggleShow}>
+            <div className="text-input-checkbox-consent" >
               <input className="text-input-checkbox-consent" type="checkbox" name="start training" id="contactChoice1" onChange={this.handleChoice1}/>
-              <label for="contactChoice1">By submitting this form, I hereby give consent to engage in voluntary physical exercise without the supervision of a Swimmer Strength Certified coach. I have been truthful in filling out this form, and ensure that it is I, or a guardian over the age of 18 submitting to submit this form. I understand and have been informed that physical exercise can have effect, but not be limited to, abnormal blood pressure, fainting, dizziness, and disorders of heart rhythm. I further understand that there exist the risk of bodily harm including, but not limited to injuries to muscles, ligaments, tendons, and joints to the body; however, it is clear to me that every effort will be made to minimize these occurrences by proper and safe program design, with appropriate progressions and regressions based on the information I have provided above. Lastly, I have been informed that all of the information obtained in this high-performance training program will be treated as privileged and confidential and will consequently not be released or reveled to any person without my express written consent. </label>
+              <label id="consent" for="contactChoice1">By submitting this form, I hereby give consent to engage in voluntary physical exercise without the supervision of a Swimmer Strength Certified coach. I have been truthful in filling out this form, and ensure that it is I, or a guardian over the age of 18 submitting to submit this form. I understand and have been informed that physical exercise can have effect, but not be limited to, abnormal blood pressure, fainting, dizziness, and disorders of heart rhythm. I further understand that there exist the risk of bodily harm including, but not limited to injuries to muscles, ligaments, tendons, and joints to the body; however, it is clear to me that every effort will be made to minimize these occurrences by proper and safe program design, with appropriate progressions and regressions based on the information I have provided above. Lastly, I have been informed that all of the information obtained in this high-performance training program will be treated as privileged and confidential and will consequently not be released or reveled to any person without my express written consent. </label>
             </div>
             { !this.state.loading ?
 

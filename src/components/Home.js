@@ -15,7 +15,7 @@ class Home extends Component {
             <h1 className="big">Swimmer Strength</h1>
             <p className="small">strength training that gets you faster & reduces risk of injury</p>
             <div className="register-link">
-              <Link to="/registration"><h1 className="register-link-text">Start Training Today!</h1></Link>
+              <Link to="/start-training-today"><h1 className="register-link-text">Start Training Today!</h1></Link>
             </div>
           </div>
         </div>
@@ -58,8 +58,8 @@ class Home extends Component {
             <div className='pic'>
               <img className="actual" src='https://i.imgur.com/zVDHTOz.png' alt="logo"/>
             </div>
-            <div className='pic'>
-              <img className="actual1" src='https://i.imgur.com/gCsXJ9a.png' alt="logo"/>
+            <div className='pic-boat'>
+              <img className="actual1" src='https://i.imgur.com/wTld0ku.png?1' alt="logo"/>
             </div>
             <div className='pic'>
               <img className="actual" src='https://i.imgur.com/CmzzzCe.png' alt="logo"/>

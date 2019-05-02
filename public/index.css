@@ -407,19 +407,26 @@ a {
 }
 
 .pic {
+  padding-top: 4vh;
   width: 20%;
+}
+
+.pic-boat {
+  width: 15%;
 }
 
 .pic-dev {
   width: 10%;
+  padding-top: 2vh;
 }
+
+
 .actual{
   width: 100%
 }
 
 .actual1{
 width: 100%;
-background-color: black;
 padding: 10px;
 margin-top: 10px;
 }
@@ -653,24 +660,39 @@ margin-top: 10px;
   font-family: 'Barlow Condensed', sans-serif;
 }
 
+.training-header-sub-sub {
+  font-size: 2vw;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #2E5378;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
 .training {
  width:50%;
  margin-top: 8vh;
+ align-self: center;
+
 }
 
 .training-blog {
  margin-top: 15vh;
  margin: 0 auto;
+ align-self: center;
+
 }
 
 .training-other {
  width:50%;
  margin-top: 5vh;
+ align-self: center;
+
 }
 
 .training-camp {
  width:50%;
  margin-top: 3vh;
+ align-self: center;
 }
 
 .training3 {
@@ -1007,7 +1029,7 @@ padding-right: 30px;
   padding: 1em;
   border-radius: 8px;
   width: 86%;
-  margin-top: 1em;
+  margin-top: 0.5em;
   font-family: 'Barlow Condensed', sans-serif;
 }
 
@@ -1145,16 +1167,30 @@ input[type='checkbox'] {
   z-index: 9999999;
 }
 
+.modal-ten {
+  top: 250px;
+  left: 29%;
+  right: 29%;
+  bottom: 250px;
+  position: absolute;
+  background-color: #2E5378;
+  z-index: 9999999;
+}
+
 .modal-text {
   text-align: center;
   color: white;
 }
 
+.modal-text-ten-header {
+  text-align: center;
+  color: white;
+  margin-bottom: 0;
+  margin-top: 0;
+}
 
 .modal-div {
-  padding-top: 20px;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding: 20px;
 }
 
 .modal-exit {
@@ -1272,7 +1308,7 @@ input[type='checkbox'] {
     width: 100%
   }
 
-  .pic {
+  .pic, .pic-boat {
     width: 60%;
     margin: 0 auto;
     padding-bottom: 5vh;
@@ -1524,15 +1560,15 @@ input[type='checkbox'] {
     }
 
     .training-header {
-      font-size: 12vw;
+      font-size: 10vw;
       margin: 0;
       margin-top: 5%;
       margin-left: 2%;
       margin-right: 2%;
   }
 
-  .training-header-sub {
-    font-size: 12vw;
+  .training-header-sub, .training-header-sub-sub {
+    font-size: 10vw;
     margin: 0;
     margin-top: 0;
     margin-left: 2%;
@@ -1687,7 +1723,7 @@ input[type='checkbox'] {
   width: 100%
   }
 
-  .modal {
+  .modal, .modal-ten {
     top: 0;
     left: 0;
     right: 0;
@@ -1714,9 +1750,6 @@ input[type='checkbox'] {
   padding: 0.2em;
   font-family: 'Barlow Condensed', sans-serif;
   text-align: left;
-  white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
 }
 
 #contact-form {
