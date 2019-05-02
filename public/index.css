@@ -1149,6 +1149,10 @@ input[type='checkbox'] {
   display: none;
 }
 
+#consent {
+  font-size: 0.9vw;
+}
+
 .player {
   position: absolute;
   top: 0;
@@ -1754,6 +1758,10 @@ input[type='checkbox'] {
 
 #contact-form {
   width: 90%;
+}
+
+#consent {
+  font-size: 3vw;
 }
 
 .small {
