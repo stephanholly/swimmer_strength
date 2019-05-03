@@ -33,7 +33,7 @@ class Content extends Component {
            <h1 className="title">Blog</h1>
            <div class="img__description_layer">
              <div className="training-blog card">
-               <h1 className="training-header">Blog</h1>
+               <h1 className="training-header add-margin">Blog</h1>
                <div className="ul-training1">
                  <p className="training-text-centered">We feature free videos with swimmer relevant exercises in fun ways. This is our way of bringing you the latest research in innovative ways – enjoy.</p>
                  <div className="training-descriptions">

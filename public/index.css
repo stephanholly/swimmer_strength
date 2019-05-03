@@ -645,6 +645,17 @@ margin-top: 10px;
   font-family: 'Barlow Condensed', sans-serif;
 }
 
+.download-text {
+  padding-left: 0;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  margin: 0;
+  color: #2E5378;
+  font-size: 1.5vw;
+  text-align: center;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
 .training-header {
   font-size: 4vw;
   margin-bottom: 0;
@@ -909,6 +920,9 @@ padding-right: 30px;
 .slider-header {
   color: #2E5378;
 }
+.add-margin {
+  margin-top: 15vh;
+}
 
 .az-training-button {
   width: 40%;
@@ -931,6 +945,18 @@ padding-right: 30px;
   /* border-radius: 8px; */
 }
 
+.download-training-button {
+  width: 30%;
+  background-color: #5D92B1;
+  padding: 5px 0 10px;
+  align-self: center;
+  /* border-radius: 8px; */
+}
+
+.download-training-button:hover {
+  background-color: #2E5378
+
+}
 
 .az-training-button3 {
   width: 40%;
@@ -957,6 +983,13 @@ padding-right: 30px;
   color: white;
   font-family: 'Barlow', sans-serif;
   font-size: 3vw;
+  width: 100%;
+}
+
+.download-link-text {
+  color: white;
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.5vw;
   width: 100%;
 }
 
@@ -1590,7 +1623,7 @@ input[type='checkbox'] {
     padding: 10px;
   }
 
-  .az-training-button2 {
+  .az-training-button2, .download-training-button {
     width: 100%;
     margin-left: 0%;
     margin-bottom:2%;
@@ -1614,13 +1647,18 @@ input[type='checkbox'] {
     font-size: 5vw;
   }
 
-  .training-link-text2, .training-link-text3 {
+  .training-link-text2, .training-link-text3, .download-link-text {
     font-size: 9vw;
   }
 
   .training-text-first {
     font-size: 5vw;
   }
+
+  .download-text {
+    font-size: 4vw;
+  }
+
   .training-pic, .training-pic-sub1, .training-pic-sub2, .training-pic-sub3, .training-pic-cons{
     display: none;
   }
@@ -1643,10 +1681,13 @@ input[type='checkbox'] {
     font-size: 16vw;
     color: #2E5378;
     top: 45%;
-    left: 50%;
+    left: 47.5%;
     transform: translate(-50%, -50%);
-    width: 80%;
+    width: 90%;
+    height: 60vh;
     font-family: 'Barlow Condensed', sans-serif;
+    align-items: center;
+    display: flex;
   }
 
   .video-page-video {
