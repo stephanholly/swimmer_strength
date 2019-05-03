@@ -107,10 +107,10 @@ handleLoad = () => {
            <button className="modal-exit" onClick={this.handleCloseModal}>X</button>
              <h1 className="modal-text-ten-header">Submission Successful!</h1>
              <p className="modal-text">Thank you for choosing to try the Swimmer Strength online strength programs.</p>
-             <p className="modal-text">Please allow 72-hours of processing your information, while expecting an email from "Train Heroic" to get instructions to download the app, which will have exercise videos, sets, and repetitions for your convenience. Stay healthy, stay strong.</p>
+             <p className="modal-text">Please allow 72-hours of processing your information, while expecting an email from "Train Heroic" to get instructions to download the app, which will have exercise videos, sets, and repetitions for your convenience. If this form was not filled out properly and honestly, you may risk not receiving any workouts. Stay healthy, stay strong.</p>
            </div>
          </ReactModal>
-        <h3 className="header-text-form2">Improve your swimming and strength with a core workout from Swimmer Strength!</h3>
+        <h3 className="header-text-form2">Get your sample science-based training program that will<br/> include: proper warm-ups, mobility, core training, general body awareness and more!</h3>
         <div className="form-container">
           <form id="contact-form" onSubmit={this.handleSubmit} method="POST">
           <input type="hidden" id="type" name="contact" value="contact"/>

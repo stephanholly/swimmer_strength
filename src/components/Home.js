@@ -56,16 +56,24 @@ class Home extends Component {
           </div>
           <div className="affiliate-pics">
             <div className='pic'>
+            <a href="https://www.finisswim.com">
               <img className="actual" src='https://i.imgur.com/zVDHTOz.png' alt="logo"/>
+            </a>
             </div>
             <div className='pic-boat'>
-              <img className="actual1" src='https://i.imgur.com/wTld0ku.png?1' alt="logo"/>
+              <a href="https://www.voyagepro.co">
+                <img className="actual1" src='https://i.imgur.com/wTld0ku.png?1' alt="logo"/>
+              </a>
             </div>
             <div className='pic'>
-              <img className="actual" src='https://i.imgur.com/CmzzzCe.png' alt="logo"/>
+              <a href="https://prlabpt.com">
+                <img className="actual" src='https://i.imgur.com/CmzzzCe.png' alt="logo"/>
+              </a>
             </div>
             <div className='pic-dev'>
-              <img className="actual" src='https://i.imgur.com/t4Rze73.png' alt="logo"/>
+              <a href="http://swimdevils.com">
+                <img className="actual" src='https://i.imgur.com/t4Rze73.png' alt="logo"/>
+              </a>
             </div>
           </div>
         </div>
