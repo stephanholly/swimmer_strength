@@ -15,12 +15,12 @@ class Products extends Component {
           </div>
         </div>
         <div class="services-training-5">
-          <h1 className="title">Downloadable Programs</h1>
+          <h1 className="title">Downloadable Studies</h1>
           <div class="img__description_layer">
           <div className="training-descriptions card">
             <div className="training-pic-sub1"></div>
           <div className="training-other">
-              <h1 className="training-header-sub">Downloadable Programs</h1>
+              <h1 className="training-header-sub">Downloadable Studies</h1>
                 <div className="ul-training1">
                   <p className="training-text-first">Our training is backed by science! Read our scientific programs by Swimmer Strength's own founders!</p>
                   <p className="download-text">The Effect of a 12-week Calisthenic Dryland Program on Functional Movement Screen and Pain Scores for Young Swimmers by Deniz Hekmati</p>
