@@ -15,35 +15,27 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 23vh;
   padding-right: 20%;
-  padding-left: 20%;
+  align-items: center;
 }
 
 .media-object {
-  width: 70%;
-  min-width: 100px;
-  max-width: 160px;
-  padding: 0.75em 0 0.75em 0 ;
+  width: 20%;
 }
 
+.logoLink {
+  width: 20%
+}
 
 .logo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  color: #2E5378;
-  width: 18%;
 }
 
 .headerlink {
-  padding-top: 2em;
   font-family: 'Barlow', sans-serif;
-  padding-left: 5px;
 }
 
 .headerlink > a>h2 {
-  font-size: 2.5vw;
+  font-size: 1.5vw;
 }
 
 .dropdown-container {
@@ -76,7 +68,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  padding-top: 40px;
+  padding-top: 2vh;
   color: #2E5378;
   display: none;
 }
@@ -1304,7 +1296,8 @@ input[type='checkbox'] {
   }
 
   .header {
-    height: 18vh;;
+    height: 10vh;
+    padding-right: 0px;
   }
 
   .register-link {
@@ -1320,6 +1313,8 @@ input[type='checkbox'] {
 
   .fa-bars {
     display: block;
+    padding-top: 2vh;
+    align-self: center;
   }
 
   .fa-times {
@@ -1496,7 +1491,7 @@ input[type='checkbox'] {
    }
 
    .logo{
-     left: 3%;
+
    }
 
      .services-training-1 {
@@ -1812,4 +1807,15 @@ input[type='checkbox'] {
 .home-signup {
   font-size: 4vw;
 }
+
+.logoLink {
+  width: unset;
+}
+
+.media-object {
+  align-items: center;
+  left: 0;
+  margin-left: -65%;
+}
+
 }

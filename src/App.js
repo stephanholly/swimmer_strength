@@ -60,12 +60,12 @@ class App extends Component {
     return (
       <Router>
       <div className="App">
-          <Link to="/">
-            <div className="logo">
-              <img className="media-object" src='/images/swimmerstrength.png' alt="logo" />
-            </div>
-          </Link>
         <header className="header">
+        <Link to="/" className="logoLink">
+          <div className="logo">
+            <img className="media-object" src='/images/swimmerstrength.png' alt="logo" />
+          </div>
+        </Link>
           <div className="headerlink"><Link to="/"><h2>Home</h2></Link></div>
           <div className="headerlink"><Link to="/about"><h2>About</h2></Link></div>
           <div className="headerlink"><Link to="/services"><h2>Services</h2></Link></div>

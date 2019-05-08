@@ -6,9 +6,6 @@ class Content extends Component {
   render() {
     return (
       <div className="container">
-        <div className="page-header">
-          <h1 className="page-header-text">Content</h1>
-        </div>
         <div class="services-training-videos top-section">
           <h1 className="title">Videos</h1>
           <div class="img__description_layer">

@@ -19,9 +19,6 @@ class About extends Component {
    };
     return (
       <div className="container">
-        <div className="page-header">
-          <h1 className="page-header-text">About</h1>
-        </div>
         <div className="video-title">
         <div className="main-video">
           <ReactPlayer className="player" url="https://player.vimeo.com/video/320030298" config={{ file: { attributes: {autoPlay: true, muted: true}}}} width='100%' height='100%' playing loop/>
