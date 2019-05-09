@@ -77,6 +77,9 @@ class Home extends Component {
             </div>
           </div>
         </div>
+        <div className="home-footer">
+          <h1 className="home-footer-padding">In memory of Nejla Hekmati</h1>
+        </div>
       </div>
     );
   }
