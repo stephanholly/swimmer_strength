@@ -20,10 +20,10 @@ class Services extends Component {
                   </ul>
                   <div className="training-descriptions">
                     <div className="az-training-button">
-                      <a href="http://swimmerstrength.com/aztraining-mesa" className="training-link-text">Train at our Mesa Location</a>
+                      <a href="http://www.swimmerstrength.com/aztraining-mesa" className="training-link-text">Train at our Mesa Location</a>
                     </div>
                     <div className="az-training-button">
-                      <a href="http://swimmerstrength.com/aztraining-tempe" className="training-link-text">Train at our Tempe Location</a>
+                      <a href="http://www.swimmerstrength.com/aztraining-tempe" className="training-link-text">Train at our Tempe Location</a>
                     </div>
                   </div>
                 </div>
@@ -48,7 +48,7 @@ class Services extends Component {
                       <li className="training-text2">Monthly tasks to focus on phyisically and mentally</li>
                     </ul>
                     <div className="az-training-button2">
-                    <a href="http://swimmerstrength.com/onlinetraining" className="training-link-text2">sign up here</a>
+                    <a href="http://www.swimmerstrength.com/onlinetraining" className="training-link-text2">sign up here</a>
                     </div>
                 </div>
               </div>
@@ -133,7 +133,7 @@ class Services extends Component {
                   </ul>
                   </div>
                   <div className="az-training-button2">
-                    <a href="http://swimmerstrength.com/onlinetraining" className="training-link-text2">sign up here</a>
+                    <a href="http://www.swimmerstrength.com/onlinetraining" className="training-link-text2">sign up here</a>
                   </div>
                 </div>
               </div>
