@@ -8,7 +8,9 @@ class Products extends Component {
         <div class="services-training-4 top-section">
           <h1 className="title">SS Gear</h1>
           <div class="img__description_layer">
-            <p className="title-coming-soon card">GEAR COMING SOON</p>
+            <a href="http://www.swimmerstrength-shop.com" target="_blank">
+              <p className="title-coming-soon card">CLICK HERE TO <br/>SHOP NOW</p>
+            </a>
           </div>
         </div>
         <div class="services-training-5">
