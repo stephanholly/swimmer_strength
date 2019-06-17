@@ -15,11 +15,9 @@ class TenDayForm extends Component {
 }
 
 handleLoad = () => {
-  console.log('butt')
   this.setState(prevState => ({
     loading: !prevState.loading
   }));
-  console.log('butt', this.state.loading)
 
 }
 
@@ -68,6 +66,10 @@ handleLoad = () => {
       const experience = document.getElementById('experience').value;
       const age = document.getElementById('age').value;
       const goal = document.getElementById('goal').value;
+      const country = document.getElementById('country').value;
+      const gender = document.getElementById('gender').value;
+
+
 
       axios({
           method: "POST",
@@ -75,6 +77,8 @@ handleLoad = () => {
           data: {
               name: name,
               email: email,
+              gender: gender,
+              country: country,
               who1: who1,
               who2: who2,
               experience: experience,
@@ -117,12 +121,14 @@ handleLoad = () => {
             <div className="inner-form">
               <div className="left-inputs">
                 <input id="name" className="text-input-contact required" type="text" placeholder="Name"  name="NAME" required/>
+                <input id="gender" className="text-input-contact required" type="text" placeholder="Gender"  name="GENDER" required/>
                 <input id="email" className="text-input-contact required" type="text" placeholder="Email"  name="EMAIL" required/>
                 <input id="who1" className="text-input-contact required" type="text" placeholder="Are the workouts for you?" name="WHO1" required/>
                 <input id="who2" className="text-input-contact required" type="text" placeholder="If not, for whom?" name="WHO2" />
               </div>
               <div className="right-inputs">
                 <input id="age" className="text-input-contact required" type="text" placeholder="Age of trainee"  name="AGE" required/>
+                <input id="country" className="text-input-contact required" type="text" placeholder="Country"  name="COUNTRY" required/>
                 <input id="experience" className="text-input-contact required" type="text" placeholder="Dryland/strength experience (1-10)" name="WHO2" required/>
                 <textarea id="goal" name="goal" className="text-input-textarea required" type="text"placeholder="Goal/Objective" required/>
               </div>

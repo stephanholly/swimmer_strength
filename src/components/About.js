@@ -15,7 +15,7 @@ class About extends Component {
      slidesToScroll: 1,
      arrows: true,
      autoplay: true,
-     autoplaySpeed: 5000,
+     autoplaySpeed: 10000,
    };
     return (
       <div className="container">
@@ -28,7 +28,7 @@ class About extends Component {
         <h1 className="mobile-about-header">Your coach</h1>
         <h1 className="mobile-about-header1">Deniz Hekmati, MS, CSCS</h1>
           <div className="home-about-pic">
-            <img className="home-pic" src="https://i.imgur.com/hGIcEuH.png" alt="deniz portrait"/>
+            <img className="home-pic" src="https://i.imgur.com/DMqK1KF.jpg" alt="deniz portrait"/>
           </div>
           <div className="home-about-bio">
             <h1 className="about-header">Your coach: <br/>Deniz Hekmati, MS, CSCS</h1>
@@ -49,6 +49,11 @@ class About extends Component {
             </p>
             <h4 className="slider-header">Bobby Lewis, Father | Online Training</h4>
         </div>
+        <div>
+          <p className="slider-text">"We took our 11-year old daughter to physical therapist, as recommended by coach Deniz. He absolutely agreed that she could benefit from building strength in hips/glutes/core, and needs to address flexibility in her hamstrings. He was thrilled to see a young athlete looking to PREVENT injury, and said that coach Deniz sound like a very smart coach."
+           </p>
+           <h4 className="slider-header">Darcy Manfredi, Swimmer Mom</h4>
+       </div>
          <div>
            <p className="slider-text">"Being an online client with Swimmer Strength has elevated not just my swimming times, but my knowledge for strength training. Deniz has the unique ability to make you feel like his only client when he has numerous. I have never felt more explosive off the block in my life. All credit is due to Deniz and Swimmer Strength."</p>
            <h4 className="slider-header">David Newman, Swimmer | Online Training</h4>

@@ -76,8 +76,7 @@ handleLoad = () => {
           <div className="modal-div">
            <button className="modal-exit" onClick={this.handleCloseModal}>X</button>
              <h1 className="modal-text">Submission Successful!</h1>
-             <p className="modal-text">We will reach out to you soon.</p>
-             <p className="modal-text">Submission Successful! We will reach out to you soon. Thank you for your interest in Swimmer Strength!</p>
+             <p className="modal-text">We will get back to you shortly. Please allow up to 72 hours for response time. Thank you for the patience and support of Swimmer Strength!</p>
            </div>
          </ReactModal>
         <h3 className="header-text-form2">Introduce yourself to get started on improving your swimming and strength with Swimmer Strength!</h3>

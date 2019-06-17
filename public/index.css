@@ -469,11 +469,11 @@ margin-top: 10px;
 }
 
 .home-footer-padding {
-  padding: 3%;
+  padding: 1%;
   margin: 0;
   color: #2E5378;
   font-family: 'Great Vibes', cursive;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .padding {
@@ -1204,7 +1204,6 @@ input[type='checkbox'] {
   top: 250px;
   left: 33%;
   right: 33%;
-  bottom: 250px;
   position: absolute;
   background-color: #2E5378;
   z-index: 9999999;
@@ -1833,7 +1832,7 @@ input[type='checkbox'] {
   }
 
   .home-footer-padding {
-    padding: 10%;
+    padding: 3%;
   }
 
 }
