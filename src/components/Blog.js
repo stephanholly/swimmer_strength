@@ -30,7 +30,7 @@ class Blog extends Component {
   }
   render() {
     return (
-      <PageContent>
+      <PageContent className="padding-important">
         <div className="page-header">
           <h1 className="page-header-text">Blog</h1>
         </div>

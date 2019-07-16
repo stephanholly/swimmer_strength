@@ -77,7 +77,7 @@ class Services extends Component {
                   </ul>
                   </div>
                   <div className="az-training-button2">
-                    <Link to="/campquestionnaire" className="training-link-text2">request now</Link>
+                    <a href="https://squareup.com/store/swimmer-strength" target="_blank" rel="noopener noreferrer" className="training-link-text2">register now</a>
                   </div>
                 </div>
               </div>
@@ -104,7 +104,7 @@ class Services extends Component {
               <ul className="ul-camp-width">
                 <li className="training-text3">Injury Prevention: Shoulders, Knees & Back.</li>
                 <li className="training-text3">Proper Recovery</li>
-                <li className="training-text3">Physiology & Metabolism Lessons.</li>
+                <li className="training-text3">Physiology & Metabolism.</li>
                 </ul>
                 </div>
                 <div className="az-training-button2">

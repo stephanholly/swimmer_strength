@@ -8,7 +8,23 @@ class Videos extends Component {
         <h1 className="page-header-text">Videos</h1>
       </div>
         <div className="actual-vid">
+          <p className="video-text-ind">2019 USMS Nationals with Olympians</p>
+          <iframe className="no-margin-top-vid" title="ss2" width="555" height="312" src="https://www.youtube.com/embed/PpKKoPPOrus" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div className="actual-vid">
+          <p className="video-text-ind">3 gyms, 1 pool, Day of Episode - Part 1</p>
+          <iframe className="no-margin-top-vid" title="ss2" width="555" height="312" src="https://www.youtube.com/embed/gUnG_gwbycY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div className="actual-vid">
+          <p className="video-text-ind">3 gyms, 1 pool, Day of Episode - Part 2</p>
+          <iframe className="no-margin-top-vid" title="ss2" width="555" height="312" src="https://www.youtube.com/embed/as5BFkj0_WE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div className="actual-vid">
           <p className="video-text-ind">Swimmer Strength</p>
+          <iframe className="no-margin-top-vid" title="ss2" width="555" height="312" src="https://www.youtube.com/embed/CvbX3f2bx2k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div className="actual-vid">
+          <p className="video-text-ind">About | Swimmer Strength</p>
           <iframe className="no-margin-top-vid" title="ss2" width="555" height="312" src="https://player.vimeo.com/video/319633873" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div className="actual-vid">
@@ -16,7 +32,7 @@ class Videos extends Component {
           <iframe className="no-margin-top-vid" title="ss2" width="555" height="312" src="https://www.youtube.com/embed/YKiZkgINMak" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div className="actual-vid">
-          <p className="video-text-ind">Swim Relevant Medicine Ball (MB) Slam Variations</p>
+          <p className="video-text-ind">Swim Relevant MB Slam Variations</p>
           <iframe className="no-margin-top-vid" title="ss3" width="555" height="312" src="https://www.youtube.com/embed/wcsOx4MbU_0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div className="actual-vid">

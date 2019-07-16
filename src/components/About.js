@@ -46,18 +46,22 @@ class About extends Component {
          </div>
          <div>
            <p className="slider-text">"Swimmer Strength specializes in using a blend of science and art that is centered on the swimmer. Through discussions and baseline testing, Deniz is able to apply specific components and a detailed plan and racing schedule to build a foundation of strength to meet and exceed goals in the pool. Swimmer Strength provides clarity of “dryland” training through applied principles of science and experience to athletes at all levels of competition and ability. It is rare to find a specialized coach that has been a high level swimmer and coach, we have had the opportunity for our oldest son (D1 athlete) and youngest (age group swimmer) to work with Deniz which has helped both of them attain and surpass goals in and out of the pool."
-            </p>
-            <h4 className="slider-header">Bobby Lewis, Father | Online Training</h4>
-        </div>
-        <div>
-          <p className="slider-text">"We took our 11-year old daughter to physical therapist, as recommended by coach Deniz. He absolutely agreed that she could benefit from building strength in hips/glutes/core, and needs to address flexibility in her hamstrings. He was thrilled to see a young athlete looking to PREVENT injury, and said that coach Deniz sound like a very smart coach."
            </p>
-           <h4 className="slider-header">Darcy Manfredi, Swimmer Mom</h4>
-       </div>
+           <h4 className="slider-header">Bobby Lewis, Father | Online Training</h4>
+          </div>
+          <div>
+            <p className="slider-text">"We took our 11-year old daughter to physical therapist, as recommended by coach Deniz. He absolutely agreed that she could benefit from building strength in hips/glutes/core, and needs to address flexibility in her hamstrings. He was thrilled to see a young athlete looking to PREVENT injury, and said that coach Deniz sound like a very smart coach."
+             </p>
+             <h4 className="slider-header">Darcy Manfredi, Swimmer Mom</h4>
+         </div>
          <div>
            <p className="slider-text">"Being an online client with Swimmer Strength has elevated not just my swimming times, but my knowledge for strength training. Deniz has the unique ability to make you feel like his only client when he has numerous. I have never felt more explosive off the block in my life. All credit is due to Deniz and Swimmer Strength."</p>
            <h4 className="slider-header">David Newman, Swimmer | Online Training</h4>
         </div>
+        <div>
+          <p className="slider-text">"We started both girls, 12 and 16 years of age, and can say Deniz and Swimmer Strength is the best around. Not only does he work on building strength, but he helps his athletes visualize success, how to handle adversity, and build mental strength.  My oldest was well on her way, making great strides and so close to faster times towards the end of short course season when she encountered a Cyst in her hip early February 2019. She was sidelined and was told by doctors she couldn’t swim in the upcoming sectional meet at the end of March 2019. The strength training helped her stay physically fit, and helped her stay mentally strong, positive, and focused. 5 weeks later she was cleared and got to swim in the sectional meet. Our youngest is doing great. She is making big strides in her age group, feels strong, and loves working out with her sister. Deniz is extremely motivating, is an expert in his field, is passionate about properly developing young athletes, and truly cares for everyone in his program."</p>
+          <h4 className="slider-header">McResha Yazzie, Swimmer Mom</h4>
+       </div>
        </Slider>
       <div className="grey">
         <div className="home-header">

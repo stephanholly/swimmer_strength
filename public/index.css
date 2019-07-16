@@ -735,10 +735,10 @@ margin-top: 10px;
 }
 
 .training-pic-sub2 {
- height: 50vh;
- margin-top: 7.5vh;
+ height: 55vh;
+ margin-top: 5vh;
  width: 50%;
- background: url('https://i.imgur.com/UQIN9k2.jpg') center center no-repeat;
+ background: url('https://i.imgur.com/tzHjKsv.png') center center no-repeat;
  background-size:cover;
  position: relative;
 }
@@ -1176,9 +1176,12 @@ input[type='checkbox'] {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 8%;
+  margin-top: 20%;
 }
 
+.padding-important {
+  padding-top: 20% !important;
+}
 
 .video-page-video {
   margin-top: 15vh;

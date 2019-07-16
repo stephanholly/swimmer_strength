@@ -64,23 +64,23 @@ class Home extends Component {
             <h1>Trusted Affiliates</h1>
           </div>
           <div className="affiliate-pics">
-            <div className='pic'>
-            <a href="https://www.finisswim.com" target="_blank">
-              <img className="actual" src='https://i.imgur.com/zVDHTOz.png' alt="logo"/>
-            </a>
-            </div>
             <div className='pic-boat'>
-              <a href="https://www.voyagepro.co" target="_blank">
+              <a href="https://www.voyagepro.co" target="_blank" rel="noopener noreferrer">
                 <img className="actual1" src='https://i.imgur.com/wTld0ku.png?1' alt="logo"/>
               </a>
             </div>
             <div className='pic'>
-              <a href="https://prlabpt.com" target="_blank">
-                <img className="actual" src='https://i.imgur.com/CmzzzCe.png' alt="logo"/>
+            <a href="https://www.finisswim.com" target="_blank" rel="noopener noreferrer">
+              <img className="actual" src='https://i.imgur.com/zVDHTOz.png' alt="logo"/>
+            </a>
+            </div>
+            <div className='pic'>
+              <a href="https://www.swimmingworldmagazine.com/" target="_blank" rel="noopener noreferrer">
+                <img className="actual" src='https://i.imgur.com/TLoBnJ3.png' alt="logo"/>
               </a>
             </div>
             <div className='pic-dev'>
-              <a href="http://swimdevils.com" target="_blank">
+              <a href="http://swimdevils.com" target="_blank" rel="noopener noreferrer">
                 <img className="actual" src='https://i.imgur.com/t4Rze73.png' alt="logo"/>
               </a>
             </div>
