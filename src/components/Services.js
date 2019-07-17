@@ -73,7 +73,7 @@ class Services extends Component {
                   <ul className="ul-camp-width">
                     <li className="training-text3">Injury Prevention: Shoulders, Knees & Back.</li>
                     <li className="training-text3">Proper Recovery</li>
-                    <li className="training-text3">Physiology & Metabolism Lessons.</li>
+                    <li className="training-text3">Physiology & Metabolism.</li>
                   </ul>
                   </div>
                   <div className="az-training-button2">
