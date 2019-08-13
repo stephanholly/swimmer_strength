@@ -16,7 +16,7 @@ class Home extends Component {
             height='100%'
             loop
             playing
-            preload
+            preload="true"
             muted
         />
         </div>

@@ -12,7 +12,6 @@ var client = contentful.createClient({
 client.getEntries().then(entries => {
   let fun = entries.items.sort((a,b) => (a.fields.date > b.fields.date) ? 1 : ((b.fields.date > a.fields.date) ? -1 : 0));
   fun = fun.reverse()
-  console.log(fun)
   fun.forEach(entry => {
     if(entry.fields) {
       console.log(entry.fields)

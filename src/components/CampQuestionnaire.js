@@ -227,6 +227,10 @@ handleSubmit = (e) => {
             <input className="text-input-submit" type="submit" value="Submit" id="input-submit"/>
           </form>
         </div>
+        <div className="actual-vid">
+          <iframe className="no-margin-top-vid" title="ss2" width="555" height="312" src="https://www.youtube.com/embed/AVy0mBQE4jg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
       </div>
     );
   }

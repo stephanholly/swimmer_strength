@@ -8,6 +8,10 @@ class Videos extends Component {
         <h1 className="page-header-text">Videos</h1>
       </div>
         <div className="actual-vid">
+          <p className="video-text-ind">Strength Training Camp in ARIZONA</p>
+          <iframe className="no-margin-top-vid" title="ss2" width="555" height="312" src="https://www.youtube.com/embed/AVy0mBQE4jg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div className="actual-vid">
           <p className="video-text-ind">2019 USMS Nationals with Olympians</p>
           <iframe className="no-margin-top-vid" title="ss2" width="555" height="312" src="https://www.youtube.com/embed/PpKKoPPOrus" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
