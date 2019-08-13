@@ -77,7 +77,7 @@ class Services extends Component {
                   </ul>
                   </div>
                   <div className="az-training-button2">
-                    <a href="https://squareup.com/store/swimmer-strength" target="_blank" rel="noopener noreferrer" className="training-link-text2">register now</a>
+                    <Link to="/campquestionnaire" className="training-link-text2">request now</Link>
                   </div>
                 </div>
               </div>
