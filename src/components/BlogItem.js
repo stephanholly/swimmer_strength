@@ -3,7 +3,8 @@ import BlogNav from './BlogNav'
 import BlogContent from './BlogContent'
 
 
-const BlogItem = (props) => (
+const BlogItem = (props) => {
+  return(
   <div className="box">
     <BlogContent limit={150} {...props }>
       <BlogNav date={props.date} to={{
@@ -13,4 +14,5 @@ const BlogItem = (props) => (
     </BlogContent>
   </div>
 )
+}
 export default BlogItem
